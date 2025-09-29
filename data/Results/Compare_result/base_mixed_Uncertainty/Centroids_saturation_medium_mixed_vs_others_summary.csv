@@ -1,0 +1,8 @@
+CanonicalMixedStrategy,ImprovedCount
+Centroids_saturation_medium+K-Center,3
+Centroids_saturation_medium+LHS,3
+Centroids_saturation_high+Centroids_saturation_medium,2
+Centroids_saturation_low+Centroids_saturation_medium,2
+Centroids_saturation_medium+Farthest,2
+Centroids_saturation_medium+K-Means,2
+Centroids_saturation_medium+ODAL,1

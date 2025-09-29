@@ -1,0 +1,37 @@
+Strategy,StoppingIteration,EvenlyStoppingIteration
+Centroids_saturation_high+Farthest,54,100
+Farthest+Centroids_saturation_high,54,100
+Centroids_saturation_high+K-Means,59,100
+K-Means+Centroids_saturation_high,59,100
+Centroids_saturation_low+Farthest,65,100
+Farthest+Centroids_saturation_low,65,100
+Centroids_saturation_medium+Farthest,58,100
+Farthest+Centroids_saturation_medium,58,100
+Min Comp+Centroids_saturation_medium,54,100
+Centroids_saturation_medium+Min Comp,54,100
+LHS+Farthest,58,100
+Farthest+LHS,58,100
+Max Comp+Farthest,77,100
+Farthest+Max Comp,77,100
+Farthest+ODAL,77,100
+ODAL+Farthest,77,100
+K-Means+K-Center,87,100
+K-Center+K-Means,87,100
+LHS+K-Center,75,100
+K-Center+LHS,75,100
+Max Comp+K-Center,84,100
+K-Center+Max Comp,84,100
+LHS+K-Means,59,100
+K-Means+LHS,59,100
+Max Comp+K-Means,85,100
+K-Means+Max Comp,85,100
+Min Comp+K-Means,52,100
+K-Means+Min Comp,52,100
+Top5Similarity+K-Means,97,100
+K-Means+Top5Similarity,97,100
+Max Comp+LHS,90,100
+LHS+Max Comp,90,100
+Min Comp+LHS,67,100
+LHS+Min Comp,67,100
+Max Comp+ODAL,90,100
+ODAL+Max Comp,90,100

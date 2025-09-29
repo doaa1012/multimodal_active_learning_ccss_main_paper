@@ -1,0 +1,27 @@
+Strategy,StoppingIteration,EvenlyStoppingIteration
+Centroids_saturation_high+K-Means,48,51
+K-Means+Centroids_saturation_high,48,51
+Centroids_saturation_high+Random,37,51
+Random+Centroids_saturation_high,37,51
+Min Comp+Centroids_saturation_low,44,51
+Centroids_saturation_low+Min Comp,44,51
+Centroids_saturation_low+Random,40,51
+Random+Centroids_saturation_low,40,51
+Top5Similarity+Centroids_saturation_low,49,51
+Centroids_saturation_low+Top5Similarity,49,51
+Centroids_saturation_medium+Random,46,51
+Random+Centroids_saturation_medium,46,51
+Top5Similarity+Centroids_saturation_medium,47,51
+Centroids_saturation_medium+Top5Similarity,47,51
+K-Means+K-Center,40,51
+K-Center+K-Means,40,51
+K-Means+ODAL,50,51
+ODAL+K-Means,50,51
+Random+K-Means,35,51
+K-Means+Random,35,51
+Min Comp+LHS,37,51
+LHS+Min Comp,37,51
+Max Comp+Min Comp,47,51
+Min Comp+Max Comp,47,51
+Top5Similarity+Random,39,51
+Random+Top5Similarity,39,51

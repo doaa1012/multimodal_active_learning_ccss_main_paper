@@ -1,0 +1,5 @@
+Strategy,StoppingIteration,EvenlyStoppingIteration
+Top5Similarity+Max Comp,35,36
+Max Comp+Top5Similarity,35,36
+Top5Similarity+Min Comp,33,36
+Min Comp+Top5Similarity,33,36

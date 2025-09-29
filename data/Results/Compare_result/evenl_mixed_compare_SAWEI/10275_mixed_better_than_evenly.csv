@@ -1,0 +1,61 @@
+Strategy,StoppingIteration,EvenlyStoppingIteration
+Centroids_saturation_high+K-Center,51,100
+K-Center+Centroids_saturation_high,51,100
+Max Comp+Centroids_saturation_high,47,100
+Centroids_saturation_high+Max Comp,47,100
+Top5Similarity+Centroids_saturation_high,98,100
+Centroids_saturation_high+Top5Similarity,98,100
+Centroids_saturation_low+Farthest,92,100
+Farthest+Centroids_saturation_low,92,100
+Centroids_saturation_low+K-Center,47,100
+K-Center+Centroids_saturation_low,47,100
+Min Comp+Centroids_saturation_low,94,100
+Centroids_saturation_low+Min Comp,94,100
+Centroids_saturation_low+ODAL,89,100
+ODAL+Centroids_saturation_low,89,100
+Centroids_saturation_low+Random,94,100
+Random+Centroids_saturation_low,94,100
+Centroids_saturation_medium+Farthest,89,100
+Farthest+Centroids_saturation_medium,89,100
+Centroids_saturation_medium+K-Center,50,100
+K-Center+Centroids_saturation_medium,50,100
+Max Comp+Centroids_saturation_medium,49,100
+Centroids_saturation_medium+Max Comp,49,100
+Min Comp+Centroids_saturation_medium,93,100
+Centroids_saturation_medium+Min Comp,93,100
+Centroids_saturation_medium+ODAL,90,100
+ODAL+Centroids_saturation_medium,90,100
+Centroids_saturation_medium+Random,63,100
+Random+Centroids_saturation_medium,63,100
+Farthest+K-Center,93,100
+K-Center+Farthest,93,100
+K-Means+Farthest,46,100
+Farthest+K-Means,46,100
+LHS+Farthest,66,100
+Farthest+LHS,66,100
+Max Comp+Farthest,94,100
+Farthest+Max Comp,94,100
+Farthest+ODAL,92,100
+ODAL+Farthest,92,100
+Random+Farthest,62,100
+Farthest+Random,62,100
+LHS+K-Center,89,100
+K-Center+LHS,89,100
+Max Comp+K-Center,99,100
+K-Center+Max Comp,99,100
+Min Comp+K-Center,83,100
+K-Center+Min Comp,83,100
+ODAL+K-Center,49,100
+K-Center+ODAL,49,100
+Max Comp+K-Means,73,100
+K-Means+Max Comp,73,100
+Top5Similarity+K-Means,83,100
+K-Means+Top5Similarity,83,100
+Max Comp+LHS,64,100
+LHS+Max Comp,64,100
+Max Comp+Random,76,100
+Random+Max Comp,76,100
+Top5Similarity+Min Comp,80,100
+Min Comp+Top5Similarity,80,100
+Top5Similarity+ODAL,92,100
+ODAL+Top5Similarity,92,100

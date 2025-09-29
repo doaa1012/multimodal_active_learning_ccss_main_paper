@@ -1,0 +1,9 @@
+CanonicalMixedStrategy,ImprovedCount
+LHS+ODAL,6
+Centroids_saturation_high+ODAL,5
+Centroids_saturation_low+ODAL,5
+Centroids_saturation_medium+ODAL,5
+K-Means+ODAL,4
+ODAL+Random,4
+Farthest+ODAL,3
+K-Center+ODAL,3

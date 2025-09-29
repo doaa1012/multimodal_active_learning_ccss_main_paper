@@ -1,0 +1,11 @@
+MixingStrategy,OverallImprovementPercent
+Centroids_saturation_high,37.21
+Random,61.36
+LHS,41.46
+K-Means,56.25
+Farthest,64.15
+K-Center,64.0
+ODAL,67.35
+Centroids_saturation_medium,40.48
+Centroids_saturation_low,38.46
+Top5Similarity,61.19

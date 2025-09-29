@@ -1,0 +1,3 @@
+Stopped at iteration: 100
+Gradient stable index: 55
+Init indices: [128, 5, 198, 178, 338, 247, 122, 188, 253]

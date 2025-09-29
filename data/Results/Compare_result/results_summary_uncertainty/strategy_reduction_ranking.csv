@@ -1,0 +1,67 @@
+Mixed,AvgReduction
+Cent_sat_med+Min Comp,265.9375
+LHS+Min Comp,263.0
+Max Comp+ODAL,235.4375
+ODAL+Random,234.75
+K-Means+Min Comp,232.0625
+Min Comp+T5S,231.6875
+K-Means+Max Comp,228.625
+LHS+Max Comp,226.4375
+FPS+K-Means,208.0
+Cent_sat_high+Min Comp,200.9375
+FPS+Min Comp,200.875
+Min Comp+Random,199.625
+Max Comp+Min Comp,198.75
+K-Center+T5S,197.4375
+Cent_sat_med+FPS,196.625
+K-Center+K-Means,196.0
+FPS+Max Comp,195.9375
+Cent_sat_high+FPS,195.4375
+K-Center+Random,195.1875
+Cent_sat_low+Min Comp,194.1875
+K-Means+T5S,193.125
+Cent_sat_high+K-Means,193.0625
+K-Means+LHS,191.875
+Cent_sat_low+FPS,191.6875
+LHS+ODAL,189.0
+Cent_sat_low+ODAL,185.9375
+K-Center+Max Comp,184.75
+Cent_sat_med+Max Comp,167.0
+FPS+LHS,165.0625
+Min Comp+ODAL,164.5625
+Random+T5S,163.25
+Cent_sat_med+T5S,162.5
+Cent_sat_high+Max Comp,161.9375
+FPS+ODAL,161.75
+Cent_sat_med+K-Center,161.125
+K-Center+Min Comp,160.75
+K-Center+ODAL,160.625
+LHS+Random,160.0625
+Cent_sat_low+K-Center,159.5625
+Cent_sat_high+ODAL,158.5
+Cent_sat_med+ODAL,157.25
+K-Center+LHS,155.5625
+LHS+T5S,155.5625
+Cent_sat_high+T5S,155.125
+FPS+T5S,136.5
+K-Means+Random,136.25
+K-Means+ODAL,136.0
+Cent_sat_low+T5S,130.0625
+Cent_sat_med+K-Means,129.4375
+Cent_sat_high+Random,128.25
+Cent_sat_low+Max Comp,125.0
+Cent_sat_med+LHS,122.25
+Max Comp+T5S,108.5625
+Max Comp+Random,100.6875
+Cent_sat_high+K-Center,100.4375
+FPS+K-Center,98.4375
+ODAL+T5S,97.875
+Cent_sat_low+K-Means,95.625
+Cent_sat_high+LHS,94.9375
+FPS+Random,94.75
+Cent_sat_med+Random,93.375
+Cent_sat_low+LHS,91.625
+Cent_sat_low+Random,91.125
+Cent_sat_high+Cent_sat_med,66.4375
+Cent_sat_high+Cent_sat_low,62.625
+Cent_sat_low+Cent_sat_med,61.875

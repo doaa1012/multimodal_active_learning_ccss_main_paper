@@ -1,0 +1,9 @@
+MaterialID,TopStrategy,StoppingIteration,EvenlyStoppingIteration,Improvement,ImprovementPercent
+10272,Top5Similarity+Min Comp,33,36,3,8.33
+10275,K-Means+Farthest,46,100,54,54.0
+10304,Centroids_saturation_high+K-Center,58,78,20,25.64
+10311,Top5Similarity+Min Comp,33,99,66,66.67
+10403,Random+Farthest,42,100,58,58.0
+10402,Min Comp+Random,46,100,54,54.0
+10399,Top5Similarity+Max Comp,43,84,41,48.81
+10374,Random+K-Means,35,51,16,31.37

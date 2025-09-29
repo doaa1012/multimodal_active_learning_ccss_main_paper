@@ -1,0 +1,145 @@
+Strategy,StoppingIteration,GradientStableIteration
+Top5Similarity,100,
+Max Comp,100,30.0
+Min Comp,100,89.0
+Centroids_saturation_high,87,61.0
+Centroids_saturation_medium,100,
+Centroids_saturation_low,61,61.0
+Random,100,
+LHS,100,
+K-Means,63,31.0
+Farthest,100,76.0
+ODAL,100,
+K-Center,100,97.0
+Top5Similarity+Max Comp,100,
+Top5Similarity+Min Comp,100,
+Top5Similarity+Centroids_saturation_high,100,
+Top5Similarity+Centroids_saturation_medium,100,
+Top5Similarity+Centroids_saturation_low,100,
+Top5Similarity+Random,100,
+Top5Similarity+LHS,100,
+Top5Similarity+K-Means,97,35.0
+Top5Similarity+Farthest,100,
+Top5Similarity+ODAL,100,
+Top5Similarity+K-Center,100,
+Max Comp+Top5Similarity,100,
+Max Comp+Min Comp,100,
+Max Comp+Centroids_saturation_high,100,39.0
+Max Comp+Centroids_saturation_medium,100,41.0
+Max Comp+Centroids_saturation_low,100,40.0
+Max Comp+Random,100,
+Max Comp+LHS,70,42.0
+Max Comp+K-Means,85,35.0
+Max Comp+Farthest,82,32.0
+Max Comp+ODAL,90,34.0
+Max Comp+K-Center,100,40.0
+Min Comp+Top5Similarity,100,
+Min Comp+Max Comp,100,
+Min Comp+Centroids_saturation_high,100,41.0
+Min Comp+Centroids_saturation_medium,54,39.0
+Min Comp+Centroids_saturation_low,100,43.0
+Min Comp+Random,46,41.0
+Min Comp+LHS,64,44.0
+Min Comp+K-Means,52,38.0
+Min Comp+Farthest,100,39.0
+Min Comp+ODAL,100,41.0
+Min Comp+K-Center,100,41.0
+Centroids_saturation_high+Top5Similarity,100,
+Centroids_saturation_high+Max Comp,100,39.0
+Centroids_saturation_high+Min Comp,100,41.0
+Centroids_saturation_high+Centroids_saturation_medium,100,
+Centroids_saturation_high+Centroids_saturation_low,100,
+Centroids_saturation_high+Random,100,39.0
+Centroids_saturation_high+LHS,100,55.0
+Centroids_saturation_high+K-Means,59,35.0
+Centroids_saturation_high+Farthest,100,40.0
+Centroids_saturation_high+ODAL,100,71.0
+Centroids_saturation_high+K-Center,100,40.0
+Centroids_saturation_medium+Top5Similarity,100,
+Centroids_saturation_medium+Max Comp,100,41.0
+Centroids_saturation_medium+Min Comp,54,39.0
+Centroids_saturation_medium+Centroids_saturation_high,100,
+Centroids_saturation_medium+Centroids_saturation_low,100,
+Centroids_saturation_medium+Random,90,45.0
+Centroids_saturation_medium+LHS,100,56.0
+Centroids_saturation_medium+K-Means,100,34.0
+Centroids_saturation_medium+Farthest,100,38.0
+Centroids_saturation_medium+ODAL,100,82.0
+Centroids_saturation_medium+K-Center,100,42.0
+Centroids_saturation_low+Top5Similarity,100,
+Centroids_saturation_low+Max Comp,100,40.0
+Centroids_saturation_low+Min Comp,100,43.0
+Centroids_saturation_low+Centroids_saturation_high,100,
+Centroids_saturation_low+Centroids_saturation_medium,100,
+Centroids_saturation_low+Random,100,42.0
+Centroids_saturation_low+LHS,100,78.0
+Centroids_saturation_low+K-Means,100,34.0
+Centroids_saturation_low+Farthest,100,40.0
+Centroids_saturation_low+ODAL,100,83.0
+Centroids_saturation_low+K-Center,100,43.0
+Random+Top5Similarity,100,
+Random+Max Comp,100,
+Random+Min Comp,46,41.0
+Random+Centroids_saturation_high,100,39.0
+Random+Centroids_saturation_medium,90,45.0
+Random+Centroids_saturation_low,100,42.0
+Random+LHS,100,
+Random+K-Means,100,33.0
+Random+Farthest,100,39.0
+Random+ODAL,100,98.0
+Random+K-Center,100,52.0
+LHS+Top5Similarity,100,
+LHS+Max Comp,70,42.0
+LHS+Min Comp,64,44.0
+LHS+Centroids_saturation_high,100,55.0
+LHS+Centroids_saturation_medium,100,56.0
+LHS+Centroids_saturation_low,100,78.0
+LHS+Random,100,
+LHS+K-Means,100,42.0
+LHS+Farthest,100,42.0
+LHS+ODAL,100,
+LHS+K-Center,100,40.0
+K-Means+Top5Similarity,97,35.0
+K-Means+Max Comp,85,35.0
+K-Means+Min Comp,52,38.0
+K-Means+Centroids_saturation_high,59,35.0
+K-Means+Centroids_saturation_medium,100,34.0
+K-Means+Centroids_saturation_low,100,34.0
+K-Means+Random,100,33.0
+K-Means+LHS,100,42.0
+K-Means+Farthest,100,34.0
+K-Means+ODAL,100,34.0
+K-Means+K-Center,84,36.0
+Farthest+Top5Similarity,100,
+Farthest+Max Comp,82,32.0
+Farthest+Min Comp,100,39.0
+Farthest+Centroids_saturation_high,100,40.0
+Farthest+Centroids_saturation_medium,100,38.0
+Farthest+Centroids_saturation_low,100,40.0
+Farthest+Random,100,39.0
+Farthest+LHS,100,42.0
+Farthest+K-Means,100,34.0
+Farthest+ODAL,100,37.0
+Farthest+K-Center,100,
+ODAL+Top5Similarity,100,
+ODAL+Max Comp,90,34.0
+ODAL+Min Comp,100,41.0
+ODAL+Centroids_saturation_high,100,71.0
+ODAL+Centroids_saturation_medium,100,82.0
+ODAL+Centroids_saturation_low,100,83.0
+ODAL+Random,100,98.0
+ODAL+LHS,100,
+ODAL+K-Means,100,34.0
+ODAL+Farthest,100,37.0
+ODAL+K-Center,85,36.0
+K-Center+Top5Similarity,100,
+K-Center+Max Comp,100,40.0
+K-Center+Min Comp,100,41.0
+K-Center+Centroids_saturation_high,100,40.0
+K-Center+Centroids_saturation_medium,100,42.0
+K-Center+Centroids_saturation_low,100,43.0
+K-Center+Random,100,52.0
+K-Center+LHS,100,40.0
+K-Center+K-Means,84,36.0
+K-Center+Farthest,100,
+K-Center+ODAL,85,36.0

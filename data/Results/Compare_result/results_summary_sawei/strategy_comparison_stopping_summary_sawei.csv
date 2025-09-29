@@ -1,0 +1,1057 @@
+Folder,Base,Mixed,BaseValue,MixedValue,Difference
+10272_results,Top5Similarity,Top5Similarity+Max Comp,100,35,-65
+10272_results,Top5Similarity,Top5Similarity+Min Comp,100,33,-67
+10272_results,Top5Similarity,Top5Similarity+Centroids_saturation_high,100,73,-27
+10272_results,Top5Similarity,Top5Similarity+Centroids_saturation_medium,100,71,-29
+10272_results,Top5Similarity,Top5Similarity+Centroids_saturation_low,100,58,-42
+10272_results,Top5Similarity,Top5Similarity+Random,100,67,-33
+10272_results,Top5Similarity,Top5Similarity+LHS,100,71,-29
+10272_results,Top5Similarity,Top5Similarity+K-Means,100,52,-48
+10272_results,Top5Similarity,Top5Similarity+Farthest,100,100,0
+10272_results,Top5Similarity,Top5Similarity+ODAL,100,74,-26
+10272_results,Top5Similarity,Top5Similarity+K-Center,100,45,-55
+10272_results,Max Comp,Max Comp+Top5Similarity,100,35,-65
+10272_results,Max Comp,Max Comp+Min Comp,100,40,-60
+10272_results,Max Comp,Max Comp+Centroids_saturation_high,100,84,-16
+10272_results,Max Comp,Max Comp+Centroids_saturation_medium,100,100,0
+10272_results,Max Comp,Max Comp+Centroids_saturation_low,100,100,0
+10272_results,Max Comp,Max Comp+Random,100,100,0
+10272_results,Max Comp,Max Comp+LHS,100,100,0
+10272_results,Max Comp,Max Comp+K-Means,100,42,-58
+10272_results,Max Comp,Max Comp+Farthest,100,100,0
+10272_results,Max Comp,Max Comp+ODAL,100,38,-62
+10272_results,Max Comp,Max Comp+K-Center,100,60,-40
+10272_results,Min Comp,Min Comp+Top5Similarity,37,33,-4
+10272_results,Min Comp,Min Comp+Max Comp,37,40,3
+10272_results,Min Comp,Min Comp+Centroids_saturation_high,37,46,9
+10272_results,Min Comp,Min Comp+Centroids_saturation_medium,37,46,9
+10272_results,Min Comp,Min Comp+Centroids_saturation_low,37,100,63
+10272_results,Min Comp,Min Comp+Random,37,42,5
+10272_results,Min Comp,Min Comp+LHS,37,41,4
+10272_results,Min Comp,Min Comp+K-Means,37,50,13
+10272_results,Min Comp,Min Comp+Farthest,37,37,0
+10272_results,Min Comp,Min Comp+ODAL,37,100,63
+10272_results,Min Comp,Min Comp+K-Center,37,40,3
+10272_results,Centroids_saturation_high,Centroids_saturation_high+Top5Similarity,100,73,-27
+10272_results,Centroids_saturation_high,Centroids_saturation_high+Max Comp,100,84,-16
+10272_results,Centroids_saturation_high,Centroids_saturation_high+Min Comp,100,46,-54
+10272_results,Centroids_saturation_high,Centroids_saturation_high+Centroids_saturation_medium,100,100,0
+10272_results,Centroids_saturation_high,Centroids_saturation_high+Centroids_saturation_low,100,100,0
+10272_results,Centroids_saturation_high,Centroids_saturation_high+Random,100,86,-14
+10272_results,Centroids_saturation_high,Centroids_saturation_high+LHS,100,67,-33
+10272_results,Centroids_saturation_high,Centroids_saturation_high+K-Means,100,60,-40
+10272_results,Centroids_saturation_high,Centroids_saturation_high+Farthest,100,61,-39
+10272_results,Centroids_saturation_high,Centroids_saturation_high+ODAL,100,82,-18
+10272_results,Centroids_saturation_high,Centroids_saturation_high+K-Center,100,54,-46
+10272_results,Centroids_saturation_medium,Centroids_saturation_medium+Top5Similarity,100,71,-29
+10272_results,Centroids_saturation_medium,Centroids_saturation_medium+Max Comp,100,100,0
+10272_results,Centroids_saturation_medium,Centroids_saturation_medium+Min Comp,100,46,-54
+10272_results,Centroids_saturation_medium,Centroids_saturation_medium+Centroids_saturation_high,100,100,0
+10272_results,Centroids_saturation_medium,Centroids_saturation_medium+Centroids_saturation_low,100,100,0
+10272_results,Centroids_saturation_medium,Centroids_saturation_medium+Random,100,69,-31
+10272_results,Centroids_saturation_medium,Centroids_saturation_medium+LHS,100,62,-38
+10272_results,Centroids_saturation_medium,Centroids_saturation_medium+K-Means,100,56,-44
+10272_results,Centroids_saturation_medium,Centroids_saturation_medium+Farthest,100,63,-37
+10272_results,Centroids_saturation_medium,Centroids_saturation_medium+ODAL,100,90,-10
+10272_results,Centroids_saturation_medium,Centroids_saturation_medium+K-Center,100,63,-37
+10272_results,Centroids_saturation_low,Centroids_saturation_low+Top5Similarity,100,58,-42
+10272_results,Centroids_saturation_low,Centroids_saturation_low+Max Comp,100,100,0
+10272_results,Centroids_saturation_low,Centroids_saturation_low+Min Comp,100,100,0
+10272_results,Centroids_saturation_low,Centroids_saturation_low+Centroids_saturation_high,100,100,0
+10272_results,Centroids_saturation_low,Centroids_saturation_low+Centroids_saturation_medium,100,100,0
+10272_results,Centroids_saturation_low,Centroids_saturation_low+Random,100,100,0
+10272_results,Centroids_saturation_low,Centroids_saturation_low+LHS,100,68,-32
+10272_results,Centroids_saturation_low,Centroids_saturation_low+K-Means,100,100,0
+10272_results,Centroids_saturation_low,Centroids_saturation_low+Farthest,100,55,-45
+10272_results,Centroids_saturation_low,Centroids_saturation_low+ODAL,100,94,-6
+10272_results,Centroids_saturation_low,Centroids_saturation_low+K-Center,100,62,-38
+10272_results,Random,Random+Top5Similarity,83,67,-16
+10272_results,Random,Random+Max Comp,83,100,17
+10272_results,Random,Random+Min Comp,83,42,-41
+10272_results,Random,Random+Centroids_saturation_high,83,86,3
+10272_results,Random,Random+Centroids_saturation_medium,83,68,-15
+10272_results,Random,Random+Centroids_saturation_low,83,100,17
+10272_results,Random,Random+LHS,83,54,-29
+10272_results,Random,Random+K-Means,83,51,-32
+10272_results,Random,Random+Farthest,83,64,-19
+10272_results,Random,Random+ODAL,83,75,-8
+10272_results,Random,Random+K-Center,83,100,17
+10272_results,LHS,LHS+Top5Similarity,100,71,-29
+10272_results,LHS,LHS+Max Comp,100,100,0
+10272_results,LHS,LHS+Min Comp,100,41,-59
+10272_results,LHS,LHS+Centroids_saturation_high,100,67,-33
+10272_results,LHS,LHS+Centroids_saturation_medium,100,62,-38
+10272_results,LHS,LHS+Centroids_saturation_low,100,68,-32
+10272_results,LHS,LHS+Random,100,54,-46
+10272_results,LHS,LHS+K-Means,100,100,0
+10272_results,LHS,LHS+Farthest,100,69,-31
+10272_results,LHS,LHS+ODAL,100,100,0
+10272_results,LHS,LHS+K-Center,100,100,0
+10272_results,K-Means,K-Means+Top5Similarity,100,52,-48
+10272_results,K-Means,K-Means+Max Comp,100,42,-58
+10272_results,K-Means,K-Means+Min Comp,100,50,-50
+10272_results,K-Means,K-Means+Centroids_saturation_high,100,60,-40
+10272_results,K-Means,K-Means+Centroids_saturation_medium,100,56,-44
+10272_results,K-Means,K-Means+Centroids_saturation_low,100,100,0
+10272_results,K-Means,K-Means+Random,100,51,-49
+10272_results,K-Means,K-Means+LHS,100,100,0
+10272_results,K-Means,K-Means+Farthest,100,43,-57
+10272_results,K-Means,K-Means+ODAL,100,57,-43
+10272_results,K-Means,K-Means+K-Center,100,42,-58
+10272_results,Farthest,Farthest+Top5Similarity,65,100,35
+10272_results,Farthest,Farthest+Max Comp,65,100,35
+10272_results,Farthest,Farthest+Min Comp,65,37,-28
+10272_results,Farthest,Farthest+Centroids_saturation_high,65,61,-4
+10272_results,Farthest,Farthest+Centroids_saturation_medium,65,63,-2
+10272_results,Farthest,Farthest+Centroids_saturation_low,65,55,-10
+10272_results,Farthest,Farthest+Random,65,64,-1
+10272_results,Farthest,Farthest+LHS,65,69,4
+10272_results,Farthest,Farthest+K-Means,65,43,-22
+10272_results,Farthest,Farthest+ODAL,65,100,35
+10272_results,Farthest,Farthest+K-Center,65,100,35
+10272_results,ODAL,ODAL+Top5Similarity,100,74,-26
+10272_results,ODAL,ODAL+Max Comp,100,38,-62
+10272_results,ODAL,ODAL+Min Comp,100,100,0
+10272_results,ODAL,ODAL+Centroids_saturation_high,100,82,-18
+10272_results,ODAL,ODAL+Centroids_saturation_medium,100,90,-10
+10272_results,ODAL,ODAL+Centroids_saturation_low,100,94,-6
+10272_results,ODAL,ODAL+Random,100,75,-25
+10272_results,ODAL,ODAL+LHS,100,100,0
+10272_results,ODAL,ODAL+K-Means,100,57,-43
+10272_results,ODAL,ODAL+Farthest,100,70,-30
+10272_results,ODAL,ODAL+K-Center,100,100,0
+10272_results,K-Center,K-Center+Top5Similarity,39,45,6
+10272_results,K-Center,K-Center+Max Comp,39,60,21
+10272_results,K-Center,K-Center+Min Comp,39,40,1
+10272_results,K-Center,K-Center+Centroids_saturation_high,39,54,15
+10272_results,K-Center,K-Center+Centroids_saturation_medium,39,63,24
+10272_results,K-Center,K-Center+Centroids_saturation_low,39,62,23
+10272_results,K-Center,K-Center+Random,39,100,61
+10272_results,K-Center,K-Center+LHS,39,100,61
+10272_results,K-Center,K-Center+K-Means,39,42,3
+10272_results,K-Center,K-Center+Farthest,39,100,61
+10272_results,K-Center,K-Center+ODAL,39,100,61
+10275_results,Top5Similarity,Top5Similarity+Max Comp,100,100,0
+10275_results,Top5Similarity,Top5Similarity+Min Comp,100,80,-20
+10275_results,Top5Similarity,Top5Similarity+Centroids_saturation_high,100,98,-2
+10275_results,Top5Similarity,Top5Similarity+Centroids_saturation_medium,100,100,0
+10275_results,Top5Similarity,Top5Similarity+Centroids_saturation_low,100,100,0
+10275_results,Top5Similarity,Top5Similarity+Random,100,100,0
+10275_results,Top5Similarity,Top5Similarity+LHS,100,100,0
+10275_results,Top5Similarity,Top5Similarity+K-Means,100,83,-17
+10275_results,Top5Similarity,Top5Similarity+Farthest,100,100,0
+10275_results,Top5Similarity,Top5Similarity+ODAL,100,92,-8
+10275_results,Top5Similarity,Top5Similarity+K-Center,100,100,0
+10275_results,Max Comp,Max Comp+Top5Similarity,100,100,0
+10275_results,Max Comp,Max Comp+Min Comp,100,100,0
+10275_results,Max Comp,Max Comp+Centroids_saturation_high,100,47,-53
+10275_results,Max Comp,Max Comp+Centroids_saturation_medium,100,49,-51
+10275_results,Max Comp,Max Comp+Centroids_saturation_low,100,100,0
+10275_results,Max Comp,Max Comp+Random,100,76,-24
+10275_results,Max Comp,Max Comp+LHS,100,64,-36
+10275_results,Max Comp,Max Comp+K-Means,100,73,-27
+10275_results,Max Comp,Max Comp+Farthest,100,94,-6
+10275_results,Max Comp,Max Comp+ODAL,100,100,0
+10275_results,Max Comp,Max Comp+K-Center,100,99,-1
+10275_results,Min Comp,Min Comp+Top5Similarity,100,80,-20
+10275_results,Min Comp,Min Comp+Max Comp,100,100,0
+10275_results,Min Comp,Min Comp+Centroids_saturation_high,100,100,0
+10275_results,Min Comp,Min Comp+Centroids_saturation_medium,100,93,-7
+10275_results,Min Comp,Min Comp+Centroids_saturation_low,100,94,-6
+10275_results,Min Comp,Min Comp+Random,100,100,0
+10275_results,Min Comp,Min Comp+LHS,100,100,0
+10275_results,Min Comp,Min Comp+K-Means,100,100,0
+10275_results,Min Comp,Min Comp+Farthest,100,100,0
+10275_results,Min Comp,Min Comp+ODAL,100,100,0
+10275_results,Min Comp,Min Comp+K-Center,100,83,-17
+10275_results,Centroids_saturation_high,Centroids_saturation_high+Top5Similarity,100,98,-2
+10275_results,Centroids_saturation_high,Centroids_saturation_high+Max Comp,100,47,-53
+10275_results,Centroids_saturation_high,Centroids_saturation_high+Min Comp,100,100,0
+10275_results,Centroids_saturation_high,Centroids_saturation_high+Centroids_saturation_medium,100,100,0
+10275_results,Centroids_saturation_high,Centroids_saturation_high+Centroids_saturation_low,100,100,0
+10275_results,Centroids_saturation_high,Centroids_saturation_high+Random,100,100,0
+10275_results,Centroids_saturation_high,Centroids_saturation_high+LHS,100,100,0
+10275_results,Centroids_saturation_high,Centroids_saturation_high+K-Means,100,100,0
+10275_results,Centroids_saturation_high,Centroids_saturation_high+Farthest,100,100,0
+10275_results,Centroids_saturation_high,Centroids_saturation_high+ODAL,100,100,0
+10275_results,Centroids_saturation_high,Centroids_saturation_high+K-Center,100,51,-49
+10275_results,Centroids_saturation_medium,Centroids_saturation_medium+Top5Similarity,100,100,0
+10275_results,Centroids_saturation_medium,Centroids_saturation_medium+Max Comp,100,49,-51
+10275_results,Centroids_saturation_medium,Centroids_saturation_medium+Min Comp,100,93,-7
+10275_results,Centroids_saturation_medium,Centroids_saturation_medium+Centroids_saturation_high,100,100,0
+10275_results,Centroids_saturation_medium,Centroids_saturation_medium+Centroids_saturation_low,100,100,0
+10275_results,Centroids_saturation_medium,Centroids_saturation_medium+Random,100,63,-37
+10275_results,Centroids_saturation_medium,Centroids_saturation_medium+LHS,100,100,0
+10275_results,Centroids_saturation_medium,Centroids_saturation_medium+K-Means,100,100,0
+10275_results,Centroids_saturation_medium,Centroids_saturation_medium+Farthest,100,89,-11
+10275_results,Centroids_saturation_medium,Centroids_saturation_medium+ODAL,100,90,-10
+10275_results,Centroids_saturation_medium,Centroids_saturation_medium+K-Center,100,50,-50
+10275_results,Centroids_saturation_low,Centroids_saturation_low+Top5Similarity,86,100,14
+10275_results,Centroids_saturation_low,Centroids_saturation_low+Max Comp,86,100,14
+10275_results,Centroids_saturation_low,Centroids_saturation_low+Min Comp,86,94,8
+10275_results,Centroids_saturation_low,Centroids_saturation_low+Centroids_saturation_high,86,100,14
+10275_results,Centroids_saturation_low,Centroids_saturation_low+Centroids_saturation_medium,86,100,14
+10275_results,Centroids_saturation_low,Centroids_saturation_low+Random,86,94,8
+10275_results,Centroids_saturation_low,Centroids_saturation_low+LHS,86,100,14
+10275_results,Centroids_saturation_low,Centroids_saturation_low+K-Means,86,100,14
+10275_results,Centroids_saturation_low,Centroids_saturation_low+Farthest,86,92,6
+10275_results,Centroids_saturation_low,Centroids_saturation_low+ODAL,86,89,3
+10275_results,Centroids_saturation_low,Centroids_saturation_low+K-Center,86,47,-39
+10275_results,Random,Random+Top5Similarity,100,100,0
+10275_results,Random,Random+Max Comp,100,76,-24
+10275_results,Random,Random+Min Comp,100,100,0
+10275_results,Random,Random+Centroids_saturation_high,100,100,0
+10275_results,Random,Random+Centroids_saturation_medium,100,63,-37
+10275_results,Random,Random+Centroids_saturation_low,100,94,-6
+10275_results,Random,Random+LHS,100,100,0
+10275_results,Random,Random+K-Means,100,100,0
+10275_results,Random,Random+Farthest,100,62,-38
+10275_results,Random,Random+ODAL,100,100,0
+10275_results,Random,Random+K-Center,100,100,0
+10275_results,LHS,LHS+Top5Similarity,100,100,0
+10275_results,LHS,LHS+Max Comp,100,64,-36
+10275_results,LHS,LHS+Min Comp,100,100,0
+10275_results,LHS,LHS+Centroids_saturation_high,100,100,0
+10275_results,LHS,LHS+Centroids_saturation_medium,100,100,0
+10275_results,LHS,LHS+Centroids_saturation_low,100,100,0
+10275_results,LHS,LHS+Random,100,100,0
+10275_results,LHS,LHS+K-Means,100,100,0
+10275_results,LHS,LHS+Farthest,100,66,-34
+10275_results,LHS,LHS+ODAL,100,100,0
+10275_results,LHS,LHS+K-Center,100,89,-11
+10275_results,K-Means,K-Means+Top5Similarity,100,83,-17
+10275_results,K-Means,K-Means+Max Comp,100,73,-27
+10275_results,K-Means,K-Means+Min Comp,100,100,0
+10275_results,K-Means,K-Means+Centroids_saturation_high,100,100,0
+10275_results,K-Means,K-Means+Centroids_saturation_medium,100,100,0
+10275_results,K-Means,K-Means+Centroids_saturation_low,100,100,0
+10275_results,K-Means,K-Means+Random,100,100,0
+10275_results,K-Means,K-Means+LHS,100,100,0
+10275_results,K-Means,K-Means+Farthest,100,46,-54
+10275_results,K-Means,K-Means+ODAL,100,100,0
+10275_results,K-Means,K-Means+K-Center,100,100,0
+10275_results,Farthest,Farthest+Top5Similarity,94,100,6
+10275_results,Farthest,Farthest+Max Comp,94,94,0
+10275_results,Farthest,Farthest+Min Comp,94,100,6
+10275_results,Farthest,Farthest+Centroids_saturation_high,94,100,6
+10275_results,Farthest,Farthest+Centroids_saturation_medium,94,89,-5
+10275_results,Farthest,Farthest+Centroids_saturation_low,94,92,-2
+10275_results,Farthest,Farthest+Random,94,62,-32
+10275_results,Farthest,Farthest+LHS,94,66,-28
+10275_results,Farthest,Farthest+K-Means,94,46,-48
+10275_results,Farthest,Farthest+ODAL,94,92,-2
+10275_results,Farthest,Farthest+K-Center,94,93,-1
+10275_results,ODAL,ODAL+Top5Similarity,100,92,-8
+10275_results,ODAL,ODAL+Max Comp,100,100,0
+10275_results,ODAL,ODAL+Min Comp,100,100,0
+10275_results,ODAL,ODAL+Centroids_saturation_high,100,100,0
+10275_results,ODAL,ODAL+Centroids_saturation_medium,100,90,-10
+10275_results,ODAL,ODAL+Centroids_saturation_low,100,89,-11
+10275_results,ODAL,ODAL+Random,100,100,0
+10275_results,ODAL,ODAL+LHS,100,100,0
+10275_results,ODAL,ODAL+K-Means,100,100,0
+10275_results,ODAL,ODAL+Farthest,100,92,-8
+10275_results,ODAL,ODAL+K-Center,100,49,-51
+10275_results,K-Center,K-Center+Top5Similarity,100,100,0
+10275_results,K-Center,K-Center+Max Comp,100,99,-1
+10275_results,K-Center,K-Center+Min Comp,100,83,-17
+10275_results,K-Center,K-Center+Centroids_saturation_high,100,51,-49
+10275_results,K-Center,K-Center+Centroids_saturation_medium,100,50,-50
+10275_results,K-Center,K-Center+Centroids_saturation_low,100,47,-53
+10275_results,K-Center,K-Center+Random,100,100,0
+10275_results,K-Center,K-Center+LHS,100,89,-11
+10275_results,K-Center,K-Center+K-Means,100,100,0
+10275_results,K-Center,K-Center+Farthest,100,93,-7
+10275_results,K-Center,K-Center+ODAL,100,49,-51
+10304_results,Top5Similarity,Top5Similarity+Max Comp,100,100,0
+10304_results,Top5Similarity,Top5Similarity+Min Comp,100,75,-25
+10304_results,Top5Similarity,Top5Similarity+Centroids_saturation_high,100,100,0
+10304_results,Top5Similarity,Top5Similarity+Centroids_saturation_medium,100,100,0
+10304_results,Top5Similarity,Top5Similarity+Centroids_saturation_low,100,100,0
+10304_results,Top5Similarity,Top5Similarity+Random,100,73,-27
+10304_results,Top5Similarity,Top5Similarity+LHS,100,67,-33
+10304_results,Top5Similarity,Top5Similarity+K-Means,100,76,-24
+10304_results,Top5Similarity,Top5Similarity+Farthest,100,76,-24
+10304_results,Top5Similarity,Top5Similarity+ODAL,100,100,0
+10304_results,Top5Similarity,Top5Similarity+K-Center,100,71,-29
+10304_results,Max Comp,Max Comp+Top5Similarity,75,100,25
+10304_results,Max Comp,Max Comp+Min Comp,75,72,-3
+10304_results,Max Comp,Max Comp+Centroids_saturation_high,75,71,-4
+10304_results,Max Comp,Max Comp+Centroids_saturation_medium,75,77,2
+10304_results,Max Comp,Max Comp+Centroids_saturation_low,75,66,-9
+10304_results,Max Comp,Max Comp+Random,75,68,-7
+10304_results,Max Comp,Max Comp+LHS,75,64,-11
+10304_results,Max Comp,Max Comp+K-Means,75,84,9
+10304_results,Max Comp,Max Comp+Farthest,75,75,0
+10304_results,Max Comp,Max Comp+ODAL,75,70,-5
+10304_results,Max Comp,Max Comp+K-Center,75,100,25
+10304_results,Min Comp,Min Comp+Top5Similarity,75,75,0
+10304_results,Min Comp,Min Comp+Max Comp,75,72,-3
+10304_results,Min Comp,Min Comp+Centroids_saturation_high,75,70,-5
+10304_results,Min Comp,Min Comp+Centroids_saturation_medium,75,79,4
+10304_results,Min Comp,Min Comp+Centroids_saturation_low,75,72,-3
+10304_results,Min Comp,Min Comp+Random,75,71,-4
+10304_results,Min Comp,Min Comp+LHS,75,72,-3
+10304_results,Min Comp,Min Comp+K-Means,75,68,-7
+10304_results,Min Comp,Min Comp+Farthest,75,70,-5
+10304_results,Min Comp,Min Comp+ODAL,75,69,-6
+10304_results,Min Comp,Min Comp+K-Center,75,76,1
+10304_results,Centroids_saturation_high,Centroids_saturation_high+Top5Similarity,80,100,20
+10304_results,Centroids_saturation_high,Centroids_saturation_high+Max Comp,80,71,-9
+10304_results,Centroids_saturation_high,Centroids_saturation_high+Min Comp,80,70,-10
+10304_results,Centroids_saturation_high,Centroids_saturation_high+Centroids_saturation_medium,80,59,-21
+10304_results,Centroids_saturation_high,Centroids_saturation_high+Centroids_saturation_low,80,69,-11
+10304_results,Centroids_saturation_high,Centroids_saturation_high+Random,80,65,-15
+10304_results,Centroids_saturation_high,Centroids_saturation_high+LHS,80,73,-7
+10304_results,Centroids_saturation_high,Centroids_saturation_high+K-Means,80,77,-3
+10304_results,Centroids_saturation_high,Centroids_saturation_high+Farthest,80,78,-2
+10304_results,Centroids_saturation_high,Centroids_saturation_high+ODAL,80,72,-8
+10304_results,Centroids_saturation_high,Centroids_saturation_high+K-Center,80,58,-22
+10304_results,Centroids_saturation_medium,Centroids_saturation_medium+Top5Similarity,100,100,0
+10304_results,Centroids_saturation_medium,Centroids_saturation_medium+Max Comp,100,77,-23
+10304_results,Centroids_saturation_medium,Centroids_saturation_medium+Min Comp,100,79,-21
+10304_results,Centroids_saturation_medium,Centroids_saturation_medium+Centroids_saturation_high,100,59,-41
+10304_results,Centroids_saturation_medium,Centroids_saturation_medium+Centroids_saturation_low,100,80,-20
+10304_results,Centroids_saturation_medium,Centroids_saturation_medium+Random,100,68,-32
+10304_results,Centroids_saturation_medium,Centroids_saturation_medium+LHS,100,71,-29
+10304_results,Centroids_saturation_medium,Centroids_saturation_medium+K-Means,100,75,-25
+10304_results,Centroids_saturation_medium,Centroids_saturation_medium+Farthest,100,72,-28
+10304_results,Centroids_saturation_medium,Centroids_saturation_medium+ODAL,100,73,-27
+10304_results,Centroids_saturation_medium,Centroids_saturation_medium+K-Center,100,91,-9
+10304_results,Centroids_saturation_low,Centroids_saturation_low+Top5Similarity,83,100,17
+10304_results,Centroids_saturation_low,Centroids_saturation_low+Max Comp,83,66,-17
+10304_results,Centroids_saturation_low,Centroids_saturation_low+Min Comp,83,72,-11
+10304_results,Centroids_saturation_low,Centroids_saturation_low+Centroids_saturation_high,83,69,-14
+10304_results,Centroids_saturation_low,Centroids_saturation_low+Centroids_saturation_medium,83,80,-3
+10304_results,Centroids_saturation_low,Centroids_saturation_low+Random,83,73,-10
+10304_results,Centroids_saturation_low,Centroids_saturation_low+LHS,83,67,-16
+10304_results,Centroids_saturation_low,Centroids_saturation_low+K-Means,83,73,-10
+10304_results,Centroids_saturation_low,Centroids_saturation_low+Farthest,83,68,-15
+10304_results,Centroids_saturation_low,Centroids_saturation_low+ODAL,83,67,-16
+10304_results,Centroids_saturation_low,Centroids_saturation_low+K-Center,83,70,-13
+10304_results,Random,Random+Top5Similarity,74,73,-1
+10304_results,Random,Random+Max Comp,74,68,-6
+10304_results,Random,Random+Min Comp,74,71,-3
+10304_results,Random,Random+Centroids_saturation_high,74,65,-9
+10304_results,Random,Random+Centroids_saturation_medium,74,68,-6
+10304_results,Random,Random+Centroids_saturation_low,74,73,-1
+10304_results,Random,Random+LHS,74,73,-1
+10304_results,Random,Random+K-Means,74,75,1
+10304_results,Random,Random+Farthest,74,76,2
+10304_results,Random,Random+ODAL,74,66,-8
+10304_results,Random,Random+K-Center,74,73,-1
+10304_results,LHS,LHS+Top5Similarity,76,67,-9
+10304_results,LHS,LHS+Max Comp,76,64,-12
+10304_results,LHS,LHS+Min Comp,76,72,-4
+10304_results,LHS,LHS+Centroids_saturation_high,76,73,-3
+10304_results,LHS,LHS+Centroids_saturation_medium,76,71,-5
+10304_results,LHS,LHS+Centroids_saturation_low,76,67,-9
+10304_results,LHS,LHS+Random,76,73,-3
+10304_results,LHS,LHS+K-Means,76,70,-6
+10304_results,LHS,LHS+Farthest,76,71,-5
+10304_results,LHS,LHS+ODAL,76,69,-7
+10304_results,LHS,LHS+K-Center,76,68,-8
+10304_results,K-Means,K-Means+Top5Similarity,100,76,-24
+10304_results,K-Means,K-Means+Max Comp,100,84,-16
+10304_results,K-Means,K-Means+Min Comp,100,68,-32
+10304_results,K-Means,K-Means+Centroids_saturation_high,100,77,-23
+10304_results,K-Means,K-Means+Centroids_saturation_medium,100,75,-25
+10304_results,K-Means,K-Means+Centroids_saturation_low,100,73,-27
+10304_results,K-Means,K-Means+Random,100,75,-25
+10304_results,K-Means,K-Means+LHS,100,70,-30
+10304_results,K-Means,K-Means+Farthest,100,80,-20
+10304_results,K-Means,K-Means+ODAL,100,72,-28
+10304_results,K-Means,K-Means+K-Center,100,59,-41
+10304_results,Farthest,Farthest+Top5Similarity,83,76,-7
+10304_results,Farthest,Farthest+Max Comp,83,75,-8
+10304_results,Farthest,Farthest+Min Comp,83,70,-13
+10304_results,Farthest,Farthest+Centroids_saturation_high,83,78,-5
+10304_results,Farthest,Farthest+Centroids_saturation_medium,83,72,-11
+10304_results,Farthest,Farthest+Centroids_saturation_low,83,68,-15
+10304_results,Farthest,Farthest+Random,83,76,-7
+10304_results,Farthest,Farthest+LHS,83,71,-12
+10304_results,Farthest,Farthest+K-Means,83,80,-3
+10304_results,Farthest,Farthest+ODAL,83,74,-9
+10304_results,Farthest,Farthest+K-Center,83,85,2
+10304_results,ODAL,ODAL+Top5Similarity,100,100,0
+10304_results,ODAL,ODAL+Max Comp,100,70,-30
+10304_results,ODAL,ODAL+Min Comp,100,69,-31
+10304_results,ODAL,ODAL+Centroids_saturation_high,100,72,-28
+10304_results,ODAL,ODAL+Centroids_saturation_medium,100,73,-27
+10304_results,ODAL,ODAL+Centroids_saturation_low,100,67,-33
+10304_results,ODAL,ODAL+Random,100,66,-34
+10304_results,ODAL,ODAL+LHS,100,69,-31
+10304_results,ODAL,ODAL+K-Means,100,72,-28
+10304_results,ODAL,ODAL+Farthest,100,74,-26
+10304_results,ODAL,ODAL+K-Center,100,61,-39
+10304_results,K-Center,K-Center+Top5Similarity,100,71,-29
+10304_results,K-Center,K-Center+Max Comp,100,100,0
+10304_results,K-Center,K-Center+Min Comp,100,76,-24
+10304_results,K-Center,K-Center+Centroids_saturation_high,100,58,-42
+10304_results,K-Center,K-Center+Centroids_saturation_medium,100,91,-9
+10304_results,K-Center,K-Center+Centroids_saturation_low,100,70,-30
+10304_results,K-Center,K-Center+Random,100,73,-27
+10304_results,K-Center,K-Center+LHS,100,68,-32
+10304_results,K-Center,K-Center+K-Means,100,59,-41
+10304_results,K-Center,K-Center+Farthest,100,86,-14
+10304_results,K-Center,K-Center+ODAL,100,61,-39
+10311_results,Top5Similarity,Top5Similarity+Max Comp,100,37,-63
+10311_results,Top5Similarity,Top5Similarity+Min Comp,100,33,-67
+10311_results,Top5Similarity,Top5Similarity+Centroids_saturation_high,100,79,-21
+10311_results,Top5Similarity,Top5Similarity+Centroids_saturation_medium,100,62,-38
+10311_results,Top5Similarity,Top5Similarity+Centroids_saturation_low,100,76,-24
+10311_results,Top5Similarity,Top5Similarity+Random,100,89,-11
+10311_results,Top5Similarity,Top5Similarity+LHS,100,79,-21
+10311_results,Top5Similarity,Top5Similarity+K-Means,100,100,0
+10311_results,Top5Similarity,Top5Similarity+Farthest,100,55,-45
+10311_results,Top5Similarity,Top5Similarity+ODAL,100,47,-53
+10311_results,Top5Similarity,Top5Similarity+K-Center,100,43,-57
+10311_results,Max Comp,Max Comp+Top5Similarity,36,37,1
+10311_results,Max Comp,Max Comp+Min Comp,36,40,4
+10311_results,Max Comp,Max Comp+Centroids_saturation_high,36,72,36
+10311_results,Max Comp,Max Comp+Centroids_saturation_medium,36,49,13
+10311_results,Max Comp,Max Comp+Centroids_saturation_low,36,51,15
+10311_results,Max Comp,Max Comp+Random,36,47,11
+10311_results,Max Comp,Max Comp+LHS,36,61,25
+10311_results,Max Comp,Max Comp+K-Means,36,59,23
+10311_results,Max Comp,Max Comp+Farthest,36,46,10
+10311_results,Max Comp,Max Comp+ODAL,36,43,7
+10311_results,Max Comp,Max Comp+K-Center,36,52,16
+10311_results,Min Comp,Min Comp+Top5Similarity,92,33,-59
+10311_results,Min Comp,Min Comp+Max Comp,92,40,-52
+10311_results,Min Comp,Min Comp+Centroids_saturation_high,92,41,-51
+10311_results,Min Comp,Min Comp+Centroids_saturation_medium,92,40,-52
+10311_results,Min Comp,Min Comp+Centroids_saturation_low,92,45,-47
+10311_results,Min Comp,Min Comp+Random,92,47,-45
+10311_results,Min Comp,Min Comp+LHS,92,60,-32
+10311_results,Min Comp,Min Comp+K-Means,92,58,-34
+10311_results,Min Comp,Min Comp+Farthest,92,53,-39
+10311_results,Min Comp,Min Comp+ODAL,92,42,-50
+10311_results,Min Comp,Min Comp+K-Center,92,40,-52
+10311_results,Centroids_saturation_high,Centroids_saturation_high+Top5Similarity,100,79,-21
+10311_results,Centroids_saturation_high,Centroids_saturation_high+Max Comp,100,72,-28
+10311_results,Centroids_saturation_high,Centroids_saturation_high+Min Comp,100,41,-59
+10311_results,Centroids_saturation_high,Centroids_saturation_high+Centroids_saturation_medium,100,100,0
+10311_results,Centroids_saturation_high,Centroids_saturation_high+Centroids_saturation_low,100,100,0
+10311_results,Centroids_saturation_high,Centroids_saturation_high+Random,100,100,0
+10311_results,Centroids_saturation_high,Centroids_saturation_high+LHS,100,100,0
+10311_results,Centroids_saturation_high,Centroids_saturation_high+K-Means,100,89,-11
+10311_results,Centroids_saturation_high,Centroids_saturation_high+Farthest,100,97,-3
+10311_results,Centroids_saturation_high,Centroids_saturation_high+ODAL,100,64,-36
+10311_results,Centroids_saturation_high,Centroids_saturation_high+K-Center,100,65,-35
+10311_results,Centroids_saturation_medium,Centroids_saturation_medium+Top5Similarity,100,62,-38
+10311_results,Centroids_saturation_medium,Centroids_saturation_medium+Max Comp,100,49,-51
+10311_results,Centroids_saturation_medium,Centroids_saturation_medium+Min Comp,100,40,-60
+10311_results,Centroids_saturation_medium,Centroids_saturation_medium+Centroids_saturation_high,100,100,0
+10311_results,Centroids_saturation_medium,Centroids_saturation_medium+Centroids_saturation_low,100,100,0
+10311_results,Centroids_saturation_medium,Centroids_saturation_medium+Random,100,100,0
+10311_results,Centroids_saturation_medium,Centroids_saturation_medium+LHS,100,100,0
+10311_results,Centroids_saturation_medium,Centroids_saturation_medium+K-Means,100,78,-22
+10311_results,Centroids_saturation_medium,Centroids_saturation_medium+Farthest,100,83,-17
+10311_results,Centroids_saturation_medium,Centroids_saturation_medium+ODAL,100,62,-38
+10311_results,Centroids_saturation_medium,Centroids_saturation_medium+K-Center,100,63,-37
+10311_results,Centroids_saturation_low,Centroids_saturation_low+Top5Similarity,100,76,-24
+10311_results,Centroids_saturation_low,Centroids_saturation_low+Max Comp,100,51,-49
+10311_results,Centroids_saturation_low,Centroids_saturation_low+Min Comp,100,45,-55
+10311_results,Centroids_saturation_low,Centroids_saturation_low+Centroids_saturation_high,100,100,0
+10311_results,Centroids_saturation_low,Centroids_saturation_low+Centroids_saturation_medium,100,100,0
+10311_results,Centroids_saturation_low,Centroids_saturation_low+Random,100,100,0
+10311_results,Centroids_saturation_low,Centroids_saturation_low+LHS,100,100,0
+10311_results,Centroids_saturation_low,Centroids_saturation_low+K-Means,100,100,0
+10311_results,Centroids_saturation_low,Centroids_saturation_low+Farthest,100,78,-22
+10311_results,Centroids_saturation_low,Centroids_saturation_low+ODAL,100,86,-14
+10311_results,Centroids_saturation_low,Centroids_saturation_low+K-Center,100,76,-24
+10311_results,Random,Random+Top5Similarity,85,89,4
+10311_results,Random,Random+Max Comp,85,47,-38
+10311_results,Random,Random+Min Comp,85,47,-38
+10311_results,Random,Random+Centroids_saturation_high,85,100,15
+10311_results,Random,Random+Centroids_saturation_medium,85,100,15
+10311_results,Random,Random+Centroids_saturation_low,85,100,15
+10311_results,Random,Random+LHS,85,100,15
+10311_results,Random,Random+K-Means,85,95,10
+10311_results,Random,Random+Farthest,85,77,-8
+10311_results,Random,Random+ODAL,85,56,-29
+10311_results,Random,Random+K-Center,85,48,-37
+10311_results,LHS,LHS+Top5Similarity,100,79,-21
+10311_results,LHS,LHS+Max Comp,100,61,-39
+10311_results,LHS,LHS+Min Comp,100,60,-40
+10311_results,LHS,LHS+Centroids_saturation_high,100,100,0
+10311_results,LHS,LHS+Centroids_saturation_medium,100,100,0
+10311_results,LHS,LHS+Centroids_saturation_low,100,100,0
+10311_results,LHS,LHS+Random,100,100,0
+10311_results,LHS,LHS+K-Means,100,74,-26
+10311_results,LHS,LHS+Farthest,100,77,-23
+10311_results,LHS,LHS+ODAL,100,67,-33
+10311_results,LHS,LHS+K-Center,100,76,-24
+10311_results,K-Means,K-Means+Top5Similarity,100,100,0
+10311_results,K-Means,K-Means+Max Comp,100,59,-41
+10311_results,K-Means,K-Means+Min Comp,100,58,-42
+10311_results,K-Means,K-Means+Centroids_saturation_high,100,89,-11
+10311_results,K-Means,K-Means+Centroids_saturation_medium,100,78,-22
+10311_results,K-Means,K-Means+Centroids_saturation_low,100,100,0
+10311_results,K-Means,K-Means+Random,100,95,-5
+10311_results,K-Means,K-Means+LHS,100,74,-26
+10311_results,K-Means,K-Means+Farthest,100,81,-19
+10311_results,K-Means,K-Means+ODAL,100,61,-39
+10311_results,K-Means,K-Means+K-Center,100,78,-22
+10311_results,Farthest,Farthest+Top5Similarity,100,55,-45
+10311_results,Farthest,Farthest+Max Comp,100,46,-54
+10311_results,Farthest,Farthest+Min Comp,100,53,-47
+10311_results,Farthest,Farthest+Centroids_saturation_high,100,97,-3
+10311_results,Farthest,Farthest+Centroids_saturation_medium,100,83,-17
+10311_results,Farthest,Farthest+Centroids_saturation_low,100,78,-22
+10311_results,Farthest,Farthest+Random,100,77,-23
+10311_results,Farthest,Farthest+LHS,100,77,-23
+10311_results,Farthest,Farthest+K-Means,100,81,-19
+10311_results,Farthest,Farthest+ODAL,100,50,-50
+10311_results,Farthest,Farthest+K-Center,100,54,-46
+10311_results,ODAL,ODAL+Top5Similarity,100,47,-53
+10311_results,ODAL,ODAL+Max Comp,100,43,-57
+10311_results,ODAL,ODAL+Min Comp,100,42,-58
+10311_results,ODAL,ODAL+Centroids_saturation_high,100,64,-36
+10311_results,ODAL,ODAL+Centroids_saturation_medium,100,62,-38
+10311_results,ODAL,ODAL+Centroids_saturation_low,100,86,-14
+10311_results,ODAL,ODAL+Random,100,56,-44
+10311_results,ODAL,ODAL+LHS,100,67,-33
+10311_results,ODAL,ODAL+K-Means,100,61,-39
+10311_results,ODAL,ODAL+Farthest,100,50,-50
+10311_results,ODAL,ODAL+K-Center,100,53,-47
+10311_results,K-Center,K-Center+Top5Similarity,47,43,-4
+10311_results,K-Center,K-Center+Max Comp,47,52,5
+10311_results,K-Center,K-Center+Min Comp,47,40,-7
+10311_results,K-Center,K-Center+Centroids_saturation_high,47,65,18
+10311_results,K-Center,K-Center+Centroids_saturation_medium,47,63,16
+10311_results,K-Center,K-Center+Centroids_saturation_low,47,76,29
+10311_results,K-Center,K-Center+Random,47,48,1
+10311_results,K-Center,K-Center+LHS,47,76,29
+10311_results,K-Center,K-Center+K-Means,47,78,31
+10311_results,K-Center,K-Center+Farthest,47,54,7
+10311_results,K-Center,K-Center+ODAL,47,53,6
+10374_results,Top5Similarity,Top5Similarity+Max Comp,100,100,0
+10374_results,Top5Similarity,Top5Similarity+Min Comp,100,52,-48
+10374_results,Top5Similarity,Top5Similarity+Centroids_saturation_high,100,77,-23
+10374_results,Top5Similarity,Top5Similarity+Centroids_saturation_medium,100,47,-53
+10374_results,Top5Similarity,Top5Similarity+Centroids_saturation_low,100,49,-51
+10374_results,Top5Similarity,Top5Similarity+Random,100,39,-61
+10374_results,Top5Similarity,Top5Similarity+LHS,100,77,-23
+10374_results,Top5Similarity,Top5Similarity+K-Means,100,100,0
+10374_results,Top5Similarity,Top5Similarity+Farthest,100,54,-46
+10374_results,Top5Similarity,Top5Similarity+ODAL,100,100,0
+10374_results,Top5Similarity,Top5Similarity+K-Center,100,90,-10
+10374_results,Max Comp,Max Comp+Top5Similarity,55,100,45
+10374_results,Max Comp,Max Comp+Min Comp,55,47,-8
+10374_results,Max Comp,Max Comp+Centroids_saturation_high,55,68,13
+10374_results,Max Comp,Max Comp+Centroids_saturation_medium,55,69,14
+10374_results,Max Comp,Max Comp+Centroids_saturation_low,55,67,12
+10374_results,Max Comp,Max Comp+Random,55,76,21
+10374_results,Max Comp,Max Comp+LHS,55,70,15
+10374_results,Max Comp,Max Comp+K-Means,55,67,12
+10374_results,Max Comp,Max Comp+Farthest,55,57,2
+10374_results,Max Comp,Max Comp+ODAL,55,53,-2
+10374_results,Max Comp,Max Comp+K-Center,55,76,21
+10374_results,Min Comp,Min Comp+Top5Similarity,100,52,-48
+10374_results,Min Comp,Min Comp+Max Comp,100,47,-53
+10374_results,Min Comp,Min Comp+Centroids_saturation_high,100,51,-49
+10374_results,Min Comp,Min Comp+Centroids_saturation_medium,100,51,-49
+10374_results,Min Comp,Min Comp+Centroids_saturation_low,100,44,-56
+10374_results,Min Comp,Min Comp+Random,100,51,-49
+10374_results,Min Comp,Min Comp+LHS,100,37,-63
+10374_results,Min Comp,Min Comp+K-Means,100,51,-49
+10374_results,Min Comp,Min Comp+Farthest,100,54,-46
+10374_results,Min Comp,Min Comp+ODAL,100,72,-28
+10374_results,Min Comp,Min Comp+K-Center,100,100,0
+10374_results,Centroids_saturation_high,Centroids_saturation_high+Top5Similarity,100,77,-23
+10374_results,Centroids_saturation_high,Centroids_saturation_high+Max Comp,100,68,-32
+10374_results,Centroids_saturation_high,Centroids_saturation_high+Min Comp,100,51,-49
+10374_results,Centroids_saturation_high,Centroids_saturation_high+Centroids_saturation_medium,100,63,-37
+10374_results,Centroids_saturation_high,Centroids_saturation_high+Centroids_saturation_low,100,61,-39
+10374_results,Centroids_saturation_high,Centroids_saturation_high+Random,100,37,-63
+10374_results,Centroids_saturation_high,Centroids_saturation_high+LHS,100,100,0
+10374_results,Centroids_saturation_high,Centroids_saturation_high+K-Means,100,48,-52
+10374_results,Centroids_saturation_high,Centroids_saturation_high+Farthest,100,65,-35
+10374_results,Centroids_saturation_high,Centroids_saturation_high+ODAL,100,100,0
+10374_results,Centroids_saturation_high,Centroids_saturation_high+K-Center,100,100,0
+10374_results,Centroids_saturation_medium,Centroids_saturation_medium+Top5Similarity,100,47,-53
+10374_results,Centroids_saturation_medium,Centroids_saturation_medium+Max Comp,100,68,-32
+10374_results,Centroids_saturation_medium,Centroids_saturation_medium+Min Comp,100,51,-49
+10374_results,Centroids_saturation_medium,Centroids_saturation_medium+Centroids_saturation_high,100,64,-36
+10374_results,Centroids_saturation_medium,Centroids_saturation_medium+Centroids_saturation_low,100,66,-34
+10374_results,Centroids_saturation_medium,Centroids_saturation_medium+Random,100,46,-54
+10374_results,Centroids_saturation_medium,Centroids_saturation_medium+LHS,100,100,0
+10374_results,Centroids_saturation_medium,Centroids_saturation_medium+K-Means,100,100,0
+10374_results,Centroids_saturation_medium,Centroids_saturation_medium+Farthest,100,100,0
+10374_results,Centroids_saturation_medium,Centroids_saturation_medium+ODAL,100,100,0
+10374_results,Centroids_saturation_medium,Centroids_saturation_medium+K-Center,100,100,0
+10374_results,Centroids_saturation_low,Centroids_saturation_low+Top5Similarity,71,49,-22
+10374_results,Centroids_saturation_low,Centroids_saturation_low+Max Comp,71,67,-4
+10374_results,Centroids_saturation_low,Centroids_saturation_low+Min Comp,71,44,-27
+10374_results,Centroids_saturation_low,Centroids_saturation_low+Centroids_saturation_high,71,61,-10
+10374_results,Centroids_saturation_low,Centroids_saturation_low+Centroids_saturation_medium,71,66,-5
+10374_results,Centroids_saturation_low,Centroids_saturation_low+Random,71,40,-31
+10374_results,Centroids_saturation_low,Centroids_saturation_low+LHS,71,100,29
+10374_results,Centroids_saturation_low,Centroids_saturation_low+K-Means,71,100,29
+10374_results,Centroids_saturation_low,Centroids_saturation_low+Farthest,71,68,-3
+10374_results,Centroids_saturation_low,Centroids_saturation_low+ODAL,71,97,26
+10374_results,Centroids_saturation_low,Centroids_saturation_low+K-Center,71,100,29
+10374_results,Random,Random+Top5Similarity,37,39,2
+10374_results,Random,Random+Max Comp,37,76,39
+10374_results,Random,Random+Min Comp,37,56,19
+10374_results,Random,Random+Centroids_saturation_high,37,37,0
+10374_results,Random,Random+Centroids_saturation_medium,37,46,9
+10374_results,Random,Random+Centroids_saturation_low,37,40,3
+10374_results,Random,Random+LHS,37,55,18
+10374_results,Random,Random+K-Means,37,35,-2
+10374_results,Random,Random+Farthest,37,55,18
+10374_results,Random,Random+ODAL,37,53,16
+10374_results,Random,Random+K-Center,37,67,30
+10374_results,LHS,LHS+Top5Similarity,66,77,11
+10374_results,LHS,LHS+Max Comp,66,70,4
+10374_results,LHS,LHS+Min Comp,66,37,-29
+10374_results,LHS,LHS+Centroids_saturation_high,66,100,34
+10374_results,LHS,LHS+Centroids_saturation_medium,66,100,34
+10374_results,LHS,LHS+Centroids_saturation_low,66,100,34
+10374_results,LHS,LHS+Random,66,55,-11
+10374_results,LHS,LHS+K-Means,66,69,3
+10374_results,LHS,LHS+Farthest,66,95,29
+10374_results,LHS,LHS+ODAL,66,87,21
+10374_results,LHS,LHS+K-Center,66,68,2
+10374_results,K-Means,K-Means+Top5Similarity,100,84,-16
+10374_results,K-Means,K-Means+Max Comp,100,64,-36
+10374_results,K-Means,K-Means+Min Comp,100,51,-49
+10374_results,K-Means,K-Means+Centroids_saturation_high,100,48,-52
+10374_results,K-Means,K-Means+Centroids_saturation_medium,100,100,0
+10374_results,K-Means,K-Means+Centroids_saturation_low,100,100,0
+10374_results,K-Means,K-Means+Random,100,35,-65
+10374_results,K-Means,K-Means+LHS,100,65,-35
+10374_results,K-Means,K-Means+Farthest,100,100,0
+10374_results,K-Means,K-Means+ODAL,100,50,-50
+10374_results,K-Means,K-Means+K-Center,100,40,-60
+10374_results,Farthest,Farthest+Top5Similarity,100,54,-46
+10374_results,Farthest,Farthest+Max Comp,100,57,-43
+10374_results,Farthest,Farthest+Min Comp,100,54,-46
+10374_results,Farthest,Farthest+Centroids_saturation_high,100,65,-35
+10374_results,Farthest,Farthest+Centroids_saturation_medium,100,83,-17
+10374_results,Farthest,Farthest+Centroids_saturation_low,100,68,-32
+10374_results,Farthest,Farthest+Random,100,55,-45
+10374_results,Farthest,Farthest+LHS,100,95,-5
+10374_results,Farthest,Farthest+K-Means,100,100,0
+10374_results,Farthest,Farthest+ODAL,100,100,0
+10374_results,Farthest,Farthest+K-Center,100,100,0
+10374_results,ODAL,ODAL+Top5Similarity,100,100,0
+10374_results,ODAL,ODAL+Max Comp,100,53,-47
+10374_results,ODAL,ODAL+Min Comp,100,72,-28
+10374_results,ODAL,ODAL+Centroids_saturation_high,100,100,0
+10374_results,ODAL,ODAL+Centroids_saturation_medium,100,100,0
+10374_results,ODAL,ODAL+Centroids_saturation_low,100,97,-3
+10374_results,ODAL,ODAL+Random,100,53,-47
+10374_results,ODAL,ODAL+LHS,100,96,-4
+10374_results,ODAL,ODAL+K-Means,100,50,-50
+10374_results,ODAL,ODAL+Farthest,100,100,0
+10374_results,ODAL,ODAL+K-Center,100,51,-49
+10374_results,K-Center,K-Center+Top5Similarity,100,90,-10
+10374_results,K-Center,K-Center+Max Comp,100,76,-24
+10374_results,K-Center,K-Center+Min Comp,100,100,0
+10374_results,K-Center,K-Center+Centroids_saturation_high,100,100,0
+10374_results,K-Center,K-Center+Centroids_saturation_medium,100,100,0
+10374_results,K-Center,K-Center+Centroids_saturation_low,100,100,0
+10374_results,K-Center,K-Center+Random,100,67,-33
+10374_results,K-Center,K-Center+LHS,100,68,-32
+10374_results,K-Center,K-Center+K-Means,100,40,-60
+10374_results,K-Center,K-Center+Farthest,100,100,0
+10374_results,K-Center,K-Center+ODAL,100,51,-49
+10399_results,Top5Similarity,Top5Similarity+Max Comp,100,43,-57
+10399_results,Top5Similarity,Top5Similarity+Min Comp,100,79,-21
+10399_results,Top5Similarity,Top5Similarity+Centroids_saturation_high,100,92,-8
+10399_results,Top5Similarity,Top5Similarity+Centroids_saturation_medium,100,90,-10
+10399_results,Top5Similarity,Top5Similarity+Centroids_saturation_low,100,90,-10
+10399_results,Top5Similarity,Top5Similarity+Random,100,65,-35
+10399_results,Top5Similarity,Top5Similarity+LHS,100,80,-20
+10399_results,Top5Similarity,Top5Similarity+K-Means,100,100,0
+10399_results,Top5Similarity,Top5Similarity+Farthest,100,100,0
+10399_results,Top5Similarity,Top5Similarity+ODAL,100,100,0
+10399_results,Top5Similarity,Top5Similarity+K-Center,100,100,0
+10399_results,Max Comp,Max Comp+Top5Similarity,75,43,-32
+10399_results,Max Comp,Max Comp+Min Comp,75,53,-22
+10399_results,Max Comp,Max Comp+Centroids_saturation_high,75,100,25
+10399_results,Max Comp,Max Comp+Centroids_saturation_medium,75,81,6
+10399_results,Max Comp,Max Comp+Centroids_saturation_low,75,100,25
+10399_results,Max Comp,Max Comp+Random,75,69,-6
+10399_results,Max Comp,Max Comp+LHS,75,62,-13
+10399_results,Max Comp,Max Comp+K-Means,75,73,-2
+10399_results,Max Comp,Max Comp+Farthest,75,70,-5
+10399_results,Max Comp,Max Comp+ODAL,75,47,-28
+10399_results,Max Comp,Max Comp+K-Center,75,72,-3
+10399_results,Min Comp,Min Comp+Top5Similarity,100,79,-21
+10399_results,Min Comp,Min Comp+Max Comp,100,53,-47
+10399_results,Min Comp,Min Comp+Centroids_saturation_high,100,75,-25
+10399_results,Min Comp,Min Comp+Centroids_saturation_medium,100,85,-15
+10399_results,Min Comp,Min Comp+Centroids_saturation_low,100,59,-41
+10399_results,Min Comp,Min Comp+Random,100,55,-45
+10399_results,Min Comp,Min Comp+LHS,100,69,-31
+10399_results,Min Comp,Min Comp+K-Means,100,73,-27
+10399_results,Min Comp,Min Comp+Farthest,100,100,0
+10399_results,Min Comp,Min Comp+ODAL,100,63,-37
+10399_results,Min Comp,Min Comp+K-Center,100,83,-17
+10399_results,Centroids_saturation_high,Centroids_saturation_high+Top5Similarity,100,92,-8
+10399_results,Centroids_saturation_high,Centroids_saturation_high+Max Comp,100,100,0
+10399_results,Centroids_saturation_high,Centroids_saturation_high+Min Comp,100,75,-25
+10399_results,Centroids_saturation_high,Centroids_saturation_high+Centroids_saturation_medium,100,100,0
+10399_results,Centroids_saturation_high,Centroids_saturation_high+Centroids_saturation_low,100,100,0
+10399_results,Centroids_saturation_high,Centroids_saturation_high+Random,100,100,0
+10399_results,Centroids_saturation_high,Centroids_saturation_high+LHS,100,100,0
+10399_results,Centroids_saturation_high,Centroids_saturation_high+K-Means,100,77,-23
+10399_results,Centroids_saturation_high,Centroids_saturation_high+Farthest,100,62,-38
+10399_results,Centroids_saturation_high,Centroids_saturation_high+ODAL,100,72,-28
+10399_results,Centroids_saturation_high,Centroids_saturation_high+K-Center,100,84,-16
+10399_results,Centroids_saturation_medium,Centroids_saturation_medium+Top5Similarity,100,90,-10
+10399_results,Centroids_saturation_medium,Centroids_saturation_medium+Max Comp,100,81,-19
+10399_results,Centroids_saturation_medium,Centroids_saturation_medium+Min Comp,100,85,-15
+10399_results,Centroids_saturation_medium,Centroids_saturation_medium+Centroids_saturation_high,100,100,0
+10399_results,Centroids_saturation_medium,Centroids_saturation_medium+Centroids_saturation_low,100,100,0
+10399_results,Centroids_saturation_medium,Centroids_saturation_medium+Random,100,100,0
+10399_results,Centroids_saturation_medium,Centroids_saturation_medium+LHS,100,100,0
+10399_results,Centroids_saturation_medium,Centroids_saturation_medium+K-Means,100,81,-19
+10399_results,Centroids_saturation_medium,Centroids_saturation_medium+Farthest,100,58,-42
+10399_results,Centroids_saturation_medium,Centroids_saturation_medium+ODAL,100,87,-13
+10399_results,Centroids_saturation_medium,Centroids_saturation_medium+K-Center,100,100,0
+10399_results,Centroids_saturation_low,Centroids_saturation_low+Top5Similarity,100,90,-10
+10399_results,Centroids_saturation_low,Centroids_saturation_low+Max Comp,100,100,0
+10399_results,Centroids_saturation_low,Centroids_saturation_low+Min Comp,100,59,-41
+10399_results,Centroids_saturation_low,Centroids_saturation_low+Centroids_saturation_high,100,100,0
+10399_results,Centroids_saturation_low,Centroids_saturation_low+Centroids_saturation_medium,100,100,0
+10399_results,Centroids_saturation_low,Centroids_saturation_low+Random,100,100,0
+10399_results,Centroids_saturation_low,Centroids_saturation_low+LHS,100,100,0
+10399_results,Centroids_saturation_low,Centroids_saturation_low+K-Means,100,69,-31
+10399_results,Centroids_saturation_low,Centroids_saturation_low+Farthest,100,76,-24
+10399_results,Centroids_saturation_low,Centroids_saturation_low+ODAL,100,100,0
+10399_results,Centroids_saturation_low,Centroids_saturation_low+K-Center,100,100,0
+10399_results,Random,Random+Top5Similarity,100,65,-35
+10399_results,Random,Random+Max Comp,100,69,-31
+10399_results,Random,Random+Min Comp,100,55,-45
+10399_results,Random,Random+Centroids_saturation_high,100,100,0
+10399_results,Random,Random+Centroids_saturation_medium,100,100,0
+10399_results,Random,Random+Centroids_saturation_low,100,100,0
+10399_results,Random,Random+LHS,100,100,0
+10399_results,Random,Random+K-Means,100,75,-25
+10399_results,Random,Random+Farthest,100,75,-25
+10399_results,Random,Random+ODAL,100,65,-35
+10399_results,Random,Random+K-Center,100,68,-32
+10399_results,LHS,LHS+Top5Similarity,100,80,-20
+10399_results,LHS,LHS+Max Comp,100,53,-47
+10399_results,LHS,LHS+Min Comp,100,69,-31
+10399_results,LHS,LHS+Centroids_saturation_high,100,100,0
+10399_results,LHS,LHS+Centroids_saturation_medium,100,100,0
+10399_results,LHS,LHS+Centroids_saturation_low,100,100,0
+10399_results,LHS,LHS+Random,100,100,0
+10399_results,LHS,LHS+K-Means,100,100,0
+10399_results,LHS,LHS+Farthest,100,70,-30
+10399_results,LHS,LHS+ODAL,100,77,-23
+10399_results,LHS,LHS+K-Center,100,100,0
+10399_results,K-Means,K-Means+Top5Similarity,95,100,5
+10399_results,K-Means,K-Means+Max Comp,95,73,-22
+10399_results,K-Means,K-Means+Min Comp,95,73,-22
+10399_results,K-Means,K-Means+Centroids_saturation_high,95,77,-18
+10399_results,K-Means,K-Means+Centroids_saturation_medium,95,81,-14
+10399_results,K-Means,K-Means+Centroids_saturation_low,95,69,-26
+10399_results,K-Means,K-Means+Random,95,75,-20
+10399_results,K-Means,K-Means+LHS,95,100,5
+10399_results,K-Means,K-Means+Farthest,95,100,5
+10399_results,K-Means,K-Means+ODAL,95,100,5
+10399_results,K-Means,K-Means+K-Center,95,72,-23
+10399_results,Farthest,Farthest+Top5Similarity,100,100,0
+10399_results,Farthest,Farthest+Max Comp,100,70,-30
+10399_results,Farthest,Farthest+Min Comp,100,100,0
+10399_results,Farthest,Farthest+Centroids_saturation_high,100,62,-38
+10399_results,Farthest,Farthest+Centroids_saturation_medium,100,58,-42
+10399_results,Farthest,Farthest+Centroids_saturation_low,100,76,-24
+10399_results,Farthest,Farthest+Random,100,75,-25
+10399_results,Farthest,Farthest+LHS,100,70,-30
+10399_results,Farthest,Farthest+K-Means,100,100,0
+10399_results,Farthest,Farthest+ODAL,100,100,0
+10399_results,Farthest,Farthest+K-Center,100,100,0
+10399_results,ODAL,ODAL+Top5Similarity,100,100,0
+10399_results,ODAL,ODAL+Max Comp,100,47,-53
+10399_results,ODAL,ODAL+Min Comp,100,63,-37
+10399_results,ODAL,ODAL+Centroids_saturation_high,100,72,-28
+10399_results,ODAL,ODAL+Centroids_saturation_medium,100,87,-13
+10399_results,ODAL,ODAL+Centroids_saturation_low,100,100,0
+10399_results,ODAL,ODAL+Random,100,65,-35
+10399_results,ODAL,ODAL+LHS,100,77,-23
+10399_results,ODAL,ODAL+K-Means,100,100,0
+10399_results,ODAL,ODAL+Farthest,100,100,0
+10399_results,ODAL,ODAL+K-Center,100,74,-26
+10399_results,K-Center,K-Center+Top5Similarity,100,100,0
+10399_results,K-Center,K-Center+Max Comp,100,72,-28
+10399_results,K-Center,K-Center+Min Comp,100,83,-17
+10399_results,K-Center,K-Center+Centroids_saturation_high,100,84,-16
+10399_results,K-Center,K-Center+Centroids_saturation_medium,100,100,0
+10399_results,K-Center,K-Center+Centroids_saturation_low,100,100,0
+10399_results,K-Center,K-Center+Random,100,68,-32
+10399_results,K-Center,K-Center+LHS,100,100,0
+10399_results,K-Center,K-Center+K-Means,100,72,-28
+10399_results,K-Center,K-Center+Farthest,100,100,0
+10399_results,K-Center,K-Center+ODAL,100,74,-26
+10402_results,Top5Similarity,Top5Similarity+Max Comp,100,100,0
+10402_results,Top5Similarity,Top5Similarity+Min Comp,100,100,0
+10402_results,Top5Similarity,Top5Similarity+Centroids_saturation_high,100,100,0
+10402_results,Top5Similarity,Top5Similarity+Centroids_saturation_medium,100,100,0
+10402_results,Top5Similarity,Top5Similarity+Centroids_saturation_low,100,100,0
+10402_results,Top5Similarity,Top5Similarity+Random,100,100,0
+10402_results,Top5Similarity,Top5Similarity+LHS,100,100,0
+10402_results,Top5Similarity,Top5Similarity+K-Means,100,97,-3
+10402_results,Top5Similarity,Top5Similarity+Farthest,100,100,0
+10402_results,Top5Similarity,Top5Similarity+ODAL,100,100,0
+10402_results,Top5Similarity,Top5Similarity+K-Center,100,100,0
+10402_results,Max Comp,Max Comp+Top5Similarity,100,100,0
+10402_results,Max Comp,Max Comp+Min Comp,100,100,0
+10402_results,Max Comp,Max Comp+Centroids_saturation_high,100,100,0
+10402_results,Max Comp,Max Comp+Centroids_saturation_medium,100,100,0
+10402_results,Max Comp,Max Comp+Centroids_saturation_low,100,100,0
+10402_results,Max Comp,Max Comp+Random,100,100,0
+10402_results,Max Comp,Max Comp+LHS,100,70,-30
+10402_results,Max Comp,Max Comp+K-Means,100,85,-15
+10402_results,Max Comp,Max Comp+Farthest,100,82,-18
+10402_results,Max Comp,Max Comp+ODAL,100,90,-10
+10402_results,Max Comp,Max Comp+K-Center,100,100,0
+10402_results,Min Comp,Min Comp+Top5Similarity,100,100,0
+10402_results,Min Comp,Min Comp+Max Comp,100,100,0
+10402_results,Min Comp,Min Comp+Centroids_saturation_high,100,100,0
+10402_results,Min Comp,Min Comp+Centroids_saturation_medium,100,54,-46
+10402_results,Min Comp,Min Comp+Centroids_saturation_low,100,100,0
+10402_results,Min Comp,Min Comp+Random,100,46,-54
+10402_results,Min Comp,Min Comp+LHS,100,64,-36
+10402_results,Min Comp,Min Comp+K-Means,100,52,-48
+10402_results,Min Comp,Min Comp+Farthest,100,100,0
+10402_results,Min Comp,Min Comp+ODAL,100,100,0
+10402_results,Min Comp,Min Comp+K-Center,100,100,0
+10402_results,Centroids_saturation_high,Centroids_saturation_high+Top5Similarity,87,100,13
+10402_results,Centroids_saturation_high,Centroids_saturation_high+Max Comp,87,100,13
+10402_results,Centroids_saturation_high,Centroids_saturation_high+Min Comp,87,100,13
+10402_results,Centroids_saturation_high,Centroids_saturation_high+Centroids_saturation_medium,87,100,13
+10402_results,Centroids_saturation_high,Centroids_saturation_high+Centroids_saturation_low,87,100,13
+10402_results,Centroids_saturation_high,Centroids_saturation_high+Random,87,100,13
+10402_results,Centroids_saturation_high,Centroids_saturation_high+LHS,87,100,13
+10402_results,Centroids_saturation_high,Centroids_saturation_high+K-Means,87,59,-28
+10402_results,Centroids_saturation_high,Centroids_saturation_high+Farthest,87,100,13
+10402_results,Centroids_saturation_high,Centroids_saturation_high+ODAL,87,100,13
+10402_results,Centroids_saturation_high,Centroids_saturation_high+K-Center,87,100,13
+10402_results,Centroids_saturation_medium,Centroids_saturation_medium+Top5Similarity,100,100,0
+10402_results,Centroids_saturation_medium,Centroids_saturation_medium+Max Comp,100,100,0
+10402_results,Centroids_saturation_medium,Centroids_saturation_medium+Min Comp,100,54,-46
+10402_results,Centroids_saturation_medium,Centroids_saturation_medium+Centroids_saturation_high,100,100,0
+10402_results,Centroids_saturation_medium,Centroids_saturation_medium+Centroids_saturation_low,100,100,0
+10402_results,Centroids_saturation_medium,Centroids_saturation_medium+Random,100,90,-10
+10402_results,Centroids_saturation_medium,Centroids_saturation_medium+LHS,100,100,0
+10402_results,Centroids_saturation_medium,Centroids_saturation_medium+K-Means,100,100,0
+10402_results,Centroids_saturation_medium,Centroids_saturation_medium+Farthest,100,100,0
+10402_results,Centroids_saturation_medium,Centroids_saturation_medium+ODAL,100,100,0
+10402_results,Centroids_saturation_medium,Centroids_saturation_medium+K-Center,100,100,0
+10402_results,Centroids_saturation_low,Centroids_saturation_low+Top5Similarity,61,100,39
+10402_results,Centroids_saturation_low,Centroids_saturation_low+Max Comp,61,100,39
+10402_results,Centroids_saturation_low,Centroids_saturation_low+Min Comp,61,100,39
+10402_results,Centroids_saturation_low,Centroids_saturation_low+Centroids_saturation_high,61,100,39
+10402_results,Centroids_saturation_low,Centroids_saturation_low+Centroids_saturation_medium,61,100,39
+10402_results,Centroids_saturation_low,Centroids_saturation_low+Random,61,100,39
+10402_results,Centroids_saturation_low,Centroids_saturation_low+LHS,61,100,39
+10402_results,Centroids_saturation_low,Centroids_saturation_low+K-Means,61,100,39
+10402_results,Centroids_saturation_low,Centroids_saturation_low+Farthest,61,100,39
+10402_results,Centroids_saturation_low,Centroids_saturation_low+ODAL,61,100,39
+10402_results,Centroids_saturation_low,Centroids_saturation_low+K-Center,61,100,39
+10402_results,Random,Random+Top5Similarity,100,100,0
+10402_results,Random,Random+Max Comp,100,100,0
+10402_results,Random,Random+Min Comp,100,46,-54
+10402_results,Random,Random+Centroids_saturation_high,100,100,0
+10402_results,Random,Random+Centroids_saturation_medium,100,90,-10
+10402_results,Random,Random+Centroids_saturation_low,100,100,0
+10402_results,Random,Random+LHS,100,100,0
+10402_results,Random,Random+K-Means,100,100,0
+10402_results,Random,Random+Farthest,100,100,0
+10402_results,Random,Random+ODAL,100,100,0
+10402_results,Random,Random+K-Center,100,100,0
+10402_results,LHS,LHS+Top5Similarity,100,100,0
+10402_results,LHS,LHS+Max Comp,100,70,-30
+10402_results,LHS,LHS+Min Comp,100,64,-36
+10402_results,LHS,LHS+Centroids_saturation_high,100,100,0
+10402_results,LHS,LHS+Centroids_saturation_medium,100,100,0
+10402_results,LHS,LHS+Centroids_saturation_low,100,100,0
+10402_results,LHS,LHS+Random,100,100,0
+10402_results,LHS,LHS+K-Means,100,100,0
+10402_results,LHS,LHS+Farthest,100,100,0
+10402_results,LHS,LHS+ODAL,100,100,0
+10402_results,LHS,LHS+K-Center,100,100,0
+10402_results,K-Means,K-Means+Top5Similarity,63,97,34
+10402_results,K-Means,K-Means+Max Comp,63,85,22
+10402_results,K-Means,K-Means+Min Comp,63,52,-11
+10402_results,K-Means,K-Means+Centroids_saturation_high,63,59,-4
+10402_results,K-Means,K-Means+Centroids_saturation_medium,63,100,37
+10402_results,K-Means,K-Means+Centroids_saturation_low,63,100,37
+10402_results,K-Means,K-Means+Random,63,100,37
+10402_results,K-Means,K-Means+LHS,63,100,37
+10402_results,K-Means,K-Means+Farthest,63,100,37
+10402_results,K-Means,K-Means+ODAL,63,100,37
+10402_results,K-Means,K-Means+K-Center,63,84,21
+10402_results,Farthest,Farthest+Top5Similarity,100,100,0
+10402_results,Farthest,Farthest+Max Comp,100,82,-18
+10402_results,Farthest,Farthest+Min Comp,100,100,0
+10402_results,Farthest,Farthest+Centroids_saturation_high,100,100,0
+10402_results,Farthest,Farthest+Centroids_saturation_medium,100,100,0
+10402_results,Farthest,Farthest+Centroids_saturation_low,100,100,0
+10402_results,Farthest,Farthest+Random,100,100,0
+10402_results,Farthest,Farthest+LHS,100,100,0
+10402_results,Farthest,Farthest+K-Means,100,100,0
+10402_results,Farthest,Farthest+ODAL,100,100,0
+10402_results,Farthest,Farthest+K-Center,100,100,0
+10402_results,ODAL,ODAL+Top5Similarity,100,100,0
+10402_results,ODAL,ODAL+Max Comp,100,90,-10
+10402_results,ODAL,ODAL+Min Comp,100,100,0
+10402_results,ODAL,ODAL+Centroids_saturation_high,100,100,0
+10402_results,ODAL,ODAL+Centroids_saturation_medium,100,100,0
+10402_results,ODAL,ODAL+Centroids_saturation_low,100,100,0
+10402_results,ODAL,ODAL+Random,100,100,0
+10402_results,ODAL,ODAL+LHS,100,100,0
+10402_results,ODAL,ODAL+K-Means,100,100,0
+10402_results,ODAL,ODAL+Farthest,100,100,0
+10402_results,ODAL,ODAL+K-Center,100,85,-15
+10402_results,K-Center,K-Center+Top5Similarity,100,100,0
+10402_results,K-Center,K-Center+Max Comp,100,100,0
+10402_results,K-Center,K-Center+Min Comp,100,100,0
+10402_results,K-Center,K-Center+Centroids_saturation_high,100,100,0
+10402_results,K-Center,K-Center+Centroids_saturation_medium,100,100,0
+10402_results,K-Center,K-Center+Centroids_saturation_low,100,100,0
+10402_results,K-Center,K-Center+Random,100,100,0
+10402_results,K-Center,K-Center+LHS,100,100,0
+10402_results,K-Center,K-Center+K-Means,100,84,-16
+10402_results,K-Center,K-Center+Farthest,100,100,0
+10402_results,K-Center,K-Center+ODAL,100,85,-15
+10403_results,Top5Similarity,Top5Similarity+Max Comp,100,100,0
+10403_results,Top5Similarity,Top5Similarity+Min Comp,100,70,-30
+10403_results,Top5Similarity,Top5Similarity+Centroids_saturation_high,100,100,0
+10403_results,Top5Similarity,Top5Similarity+Centroids_saturation_medium,100,90,-10
+10403_results,Top5Similarity,Top5Similarity+Centroids_saturation_low,100,100,0
+10403_results,Top5Similarity,Top5Similarity+Random,100,98,-2
+10403_results,Top5Similarity,Top5Similarity+LHS,100,100,0
+10403_results,Top5Similarity,Top5Similarity+K-Means,100,55,-45
+10403_results,Top5Similarity,Top5Similarity+Farthest,100,100,0
+10403_results,Top5Similarity,Top5Similarity+ODAL,100,100,0
+10403_results,Top5Similarity,Top5Similarity+K-Center,100,71,-29
+10403_results,Max Comp,Max Comp+Top5Similarity,100,100,0
+10403_results,Max Comp,Max Comp+Min Comp,100,69,-31
+10403_results,Max Comp,Max Comp+Centroids_saturation_high,100,100,0
+10403_results,Max Comp,Max Comp+Centroids_saturation_medium,100,100,0
+10403_results,Max Comp,Max Comp+Centroids_saturation_low,100,94,-6
+10403_results,Max Comp,Max Comp+Random,100,86,-14
+10403_results,Max Comp,Max Comp+LHS,100,95,-5
+10403_results,Max Comp,Max Comp+K-Means,100,100,0
+10403_results,Max Comp,Max Comp+Farthest,100,100,0
+10403_results,Max Comp,Max Comp+ODAL,100,52,-48
+10403_results,Max Comp,Max Comp+K-Center,100,73,-27
+10403_results,Min Comp,Min Comp+Top5Similarity,74,70,-4
+10403_results,Min Comp,Min Comp+Max Comp,74,69,-5
+10403_results,Min Comp,Min Comp+Centroids_saturation_high,74,75,1
+10403_results,Min Comp,Min Comp+Centroids_saturation_medium,74,62,-12
+10403_results,Min Comp,Min Comp+Centroids_saturation_low,74,61,-13
+10403_results,Min Comp,Min Comp+Random,74,72,-2
+10403_results,Min Comp,Min Comp+LHS,74,61,-13
+10403_results,Min Comp,Min Comp+K-Means,74,65,-9
+10403_results,Min Comp,Min Comp+Farthest,74,100,26
+10403_results,Min Comp,Min Comp+ODAL,74,68,-6
+10403_results,Min Comp,Min Comp+K-Center,74,87,13
+10403_results,Centroids_saturation_high,Centroids_saturation_high+Top5Similarity,100,100,0
+10403_results,Centroids_saturation_high,Centroids_saturation_high+Max Comp,100,100,0
+10403_results,Centroids_saturation_high,Centroids_saturation_high+Min Comp,100,75,-25
+10403_results,Centroids_saturation_high,Centroids_saturation_high+Centroids_saturation_medium,100,100,0
+10403_results,Centroids_saturation_high,Centroids_saturation_high+Centroids_saturation_low,100,100,0
+10403_results,Centroids_saturation_high,Centroids_saturation_high+Random,100,100,0
+10403_results,Centroids_saturation_high,Centroids_saturation_high+LHS,100,100,0
+10403_results,Centroids_saturation_high,Centroids_saturation_high+K-Means,100,100,0
+10403_results,Centroids_saturation_high,Centroids_saturation_high+Farthest,100,100,0
+10403_results,Centroids_saturation_high,Centroids_saturation_high+ODAL,100,92,-8
+10403_results,Centroids_saturation_high,Centroids_saturation_high+K-Center,100,100,0
+10403_results,Centroids_saturation_medium,Centroids_saturation_medium+Top5Similarity,97,99,2
+10403_results,Centroids_saturation_medium,Centroids_saturation_medium+Max Comp,97,100,3
+10403_results,Centroids_saturation_medium,Centroids_saturation_medium+Min Comp,97,62,-35
+10403_results,Centroids_saturation_medium,Centroids_saturation_medium+Centroids_saturation_high,97,100,3
+10403_results,Centroids_saturation_medium,Centroids_saturation_medium+Centroids_saturation_low,97,100,3
+10403_results,Centroids_saturation_medium,Centroids_saturation_medium+Random,97,100,3
+10403_results,Centroids_saturation_medium,Centroids_saturation_medium+LHS,97,100,3
+10403_results,Centroids_saturation_medium,Centroids_saturation_medium+K-Means,97,100,3
+10403_results,Centroids_saturation_medium,Centroids_saturation_medium+Farthest,97,100,3
+10403_results,Centroids_saturation_medium,Centroids_saturation_medium+ODAL,97,100,3
+10403_results,Centroids_saturation_medium,Centroids_saturation_medium+K-Center,97,100,3
+10403_results,Centroids_saturation_low,Centroids_saturation_low+Top5Similarity,78,100,22
+10403_results,Centroids_saturation_low,Centroids_saturation_low+Max Comp,78,94,16
+10403_results,Centroids_saturation_low,Centroids_saturation_low+Min Comp,78,61,-17
+10403_results,Centroids_saturation_low,Centroids_saturation_low+Centroids_saturation_high,78,100,22
+10403_results,Centroids_saturation_low,Centroids_saturation_low+Centroids_saturation_medium,78,100,22
+10403_results,Centroids_saturation_low,Centroids_saturation_low+Random,78,100,22
+10403_results,Centroids_saturation_low,Centroids_saturation_low+LHS,78,100,22
+10403_results,Centroids_saturation_low,Centroids_saturation_low+K-Means,78,67,-11
+10403_results,Centroids_saturation_low,Centroids_saturation_low+Farthest,78,100,22
+10403_results,Centroids_saturation_low,Centroids_saturation_low+ODAL,78,52,-26
+10403_results,Centroids_saturation_low,Centroids_saturation_low+K-Center,78,97,19
+10403_results,Random,Random+Top5Similarity,100,98,-2
+10403_results,Random,Random+Max Comp,100,86,-14
+10403_results,Random,Random+Min Comp,100,72,-28
+10403_results,Random,Random+Centroids_saturation_high,100,100,0
+10403_results,Random,Random+Centroids_saturation_medium,100,100,0
+10403_results,Random,Random+Centroids_saturation_low,100,100,0
+10403_results,Random,Random+LHS,100,100,0
+10403_results,Random,Random+K-Means,100,100,0
+10403_results,Random,Random+Farthest,100,42,-58
+10403_results,Random,Random+ODAL,100,100,0
+10403_results,Random,Random+K-Center,100,100,0
+10403_results,LHS,LHS+Top5Similarity,86,100,14
+10403_results,LHS,LHS+Max Comp,86,95,9
+10403_results,LHS,LHS+Min Comp,86,61,-25
+10403_results,LHS,LHS+Centroids_saturation_high,86,100,14
+10403_results,LHS,LHS+Centroids_saturation_medium,86,100,14
+10403_results,LHS,LHS+Centroids_saturation_low,86,100,14
+10403_results,LHS,LHS+Random,86,100,14
+10403_results,LHS,LHS+K-Means,86,100,14
+10403_results,LHS,LHS+Farthest,86,100,14
+10403_results,LHS,LHS+ODAL,86,100,14
+10403_results,LHS,LHS+K-Center,86,100,14
+10403_results,K-Means,K-Means+Top5Similarity,100,55,-45
+10403_results,K-Means,K-Means+Max Comp,100,100,0
+10403_results,K-Means,K-Means+Min Comp,100,65,-35
+10403_results,K-Means,K-Means+Centroids_saturation_high,100,100,0
+10403_results,K-Means,K-Means+Centroids_saturation_medium,100,100,0
+10403_results,K-Means,K-Means+Centroids_saturation_low,100,67,-33
+10403_results,K-Means,K-Means+Random,100,100,0
+10403_results,K-Means,K-Means+LHS,100,100,0
+10403_results,K-Means,K-Means+Farthest,100,49,-51
+10403_results,K-Means,K-Means+ODAL,100,100,0
+10403_results,K-Means,K-Means+K-Center,100,100,0
+10403_results,Farthest,Farthest+Top5Similarity,100,100,0
+10403_results,Farthest,Farthest+Max Comp,100,100,0
+10403_results,Farthest,Farthest+Min Comp,100,100,0
+10403_results,Farthest,Farthest+Centroids_saturation_high,100,100,0
+10403_results,Farthest,Farthest+Centroids_saturation_medium,100,100,0
+10403_results,Farthest,Farthest+Centroids_saturation_low,100,100,0
+10403_results,Farthest,Farthest+Random,100,42,-58
+10403_results,Farthest,Farthest+LHS,100,100,0
+10403_results,Farthest,Farthest+K-Means,100,49,-51
+10403_results,Farthest,Farthest+ODAL,100,100,0
+10403_results,Farthest,Farthest+K-Center,100,100,0
+10403_results,ODAL,ODAL+Top5Similarity,100,100,0
+10403_results,ODAL,ODAL+Max Comp,100,52,-48
+10403_results,ODAL,ODAL+Min Comp,100,68,-32
+10403_results,ODAL,ODAL+Centroids_saturation_high,100,92,-8
+10403_results,ODAL,ODAL+Centroids_saturation_medium,100,100,0
+10403_results,ODAL,ODAL+Centroids_saturation_low,100,52,-48
+10403_results,ODAL,ODAL+Random,100,100,0
+10403_results,ODAL,ODAL+LHS,100,100,0
+10403_results,ODAL,ODAL+K-Means,100,100,0
+10403_results,ODAL,ODAL+Farthest,100,100,0
+10403_results,ODAL,ODAL+K-Center,100,100,0
+10403_results,K-Center,K-Center+Top5Similarity,100,71,-29
+10403_results,K-Center,K-Center+Max Comp,100,73,-27
+10403_results,K-Center,K-Center+Min Comp,100,87,-13
+10403_results,K-Center,K-Center+Centroids_saturation_high,100,100,0
+10403_results,K-Center,K-Center+Centroids_saturation_medium,100,100,0
+10403_results,K-Center,K-Center+Centroids_saturation_low,100,97,-3
+10403_results,K-Center,K-Center+Random,100,100,0
+10403_results,K-Center,K-Center+LHS,100,100,0
+10403_results,K-Center,K-Center+K-Means,100,100,0
+10403_results,K-Center,K-Center+Farthest,100,100,0
+10403_results,K-Center,K-Center+ODAL,100,100,0

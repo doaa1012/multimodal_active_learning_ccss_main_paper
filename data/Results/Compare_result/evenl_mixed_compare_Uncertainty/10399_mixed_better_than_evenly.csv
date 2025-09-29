@@ -1,0 +1,93 @@
+Strategy,StoppingIteration,EvenlyStoppingIteration
+Centroids_saturation_high+Farthest,67,84
+Farthest+Centroids_saturation_high,67,84
+Centroids_saturation_high+K-Center,76,84
+K-Center+Centroids_saturation_high,76,84
+Centroids_saturation_high+K-Means,77,84
+K-Means+Centroids_saturation_high,77,84
+Min Comp+Centroids_saturation_high,75,84
+Centroids_saturation_high+Min Comp,75,84
+Centroids_saturation_high+ODAL,72,84
+ODAL+Centroids_saturation_high,72,84
+Centroids_saturation_high+Random,79,84
+Random+Centroids_saturation_high,79,84
+Centroids_saturation_low+Farthest,77,84
+Farthest+Centroids_saturation_low,77,84
+Centroids_saturation_low+K-Center,74,84
+K-Center+Centroids_saturation_low,74,84
+Centroids_saturation_low+K-Means,69,84
+K-Means+Centroids_saturation_low,69,84
+Min Comp+Centroids_saturation_low,59,84
+Centroids_saturation_low+Min Comp,59,84
+Centroids_saturation_medium+Farthest,80,84
+Farthest+Centroids_saturation_medium,80,84
+Centroids_saturation_medium+K-Center,69,84
+K-Center+Centroids_saturation_medium,69,84
+Centroids_saturation_medium+K-Means,81,84
+K-Means+Centroids_saturation_medium,81,84
+Max Comp+Centroids_saturation_medium,81,84
+Centroids_saturation_medium+Max Comp,81,84
+Farthest+K-Center,83,84
+K-Center+Farthest,83,84
+LHS+Farthest,67,84
+Farthest+LHS,67,84
+Max Comp+Farthest,58,84
+Farthest+Max Comp,58,84
+Min Comp+Farthest,75,84
+Farthest+Min Comp,75,84
+Farthest+ODAL,79,84
+ODAL+Farthest,79,84
+Random+Farthest,79,84
+Farthest+Random,79,84
+Top5Similarity+Farthest,76,84
+Farthest+Top5Similarity,76,84
+K-Means+K-Center,67,84
+K-Center+K-Means,67,84
+LHS+K-Center,73,84
+K-Center+LHS,73,84
+Max Comp+K-Center,77,84
+K-Center+Max Comp,77,84
+Min Comp+K-Center,75,84
+K-Center+Min Comp,75,84
+ODAL+K-Center,82,84
+K-Center+ODAL,82,84
+Random+K-Center,75,84
+K-Center+Random,75,84
+Top5Similarity+K-Center,82,84
+K-Center+Top5Similarity,82,84
+LHS+K-Means,83,84
+K-Means+LHS,83,84
+Max Comp+K-Means,73,84
+K-Means+Max Comp,73,84
+Min Comp+K-Means,73,84
+K-Means+Min Comp,73,84
+Random+K-Means,70,84
+K-Means+Random,70,84
+Max Comp+LHS,73,84
+LHS+Max Comp,73,84
+Min Comp+LHS,59,84
+LHS+Min Comp,59,84
+LHS+ODAL,82,84
+ODAL+LHS,82,84
+Random+LHS,79,84
+LHS+Random,79,84
+Top5Similarity+LHS,81,84
+LHS+Top5Similarity,81,84
+Max Comp+Min Comp,53,84
+Min Comp+Max Comp,53,84
+Max Comp+ODAL,47,84
+ODAL+Max Comp,47,84
+Max Comp+Random,78,84
+Random+Max Comp,78,84
+Top5Similarity+Max Comp,43,84
+Max Comp+Top5Similarity,43,84
+Min Comp+ODAL,63,84
+ODAL+Min Comp,63,84
+Min Comp+Random,81,84
+Random+Min Comp,81,84
+Top5Similarity+Min Comp,79,84
+Min Comp+Top5Similarity,79,84
+Random+ODAL,81,84
+ODAL+Random,81,84
+Top5Similarity+Random,79,84
+Random+Top5Similarity,79,84
