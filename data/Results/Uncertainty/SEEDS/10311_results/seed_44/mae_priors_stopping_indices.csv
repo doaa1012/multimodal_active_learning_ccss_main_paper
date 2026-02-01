@@ -1,0 +1,145 @@
+Strategy,StoppingIteration,GradientStableIteration
+Top5Similarity,100,
+Max Comp,36,36.0
+Min Comp,92,54.0
+Centroids_saturation_low_seed_44,100,
+Centroids_saturation_medium_seed_44,100,
+Centroids_saturation_high_seed_44,100,
+Random_seed_44,72,72.0
+LHS_seed_44,74,74.0
+K-Means_seed_44,100,
+Farthest_seed_44,43,43.0
+ODAL_seed_44,100,
+K-Center_seed_44,37,37.0
+Top5Similarity+Max Comp,100,63.0
+Top5Similarity+Min Comp,41,41.0
+Top5Similarity+Centroids_saturation_low_seed_44,100,
+Top5Similarity+Centroids_saturation_medium_seed_44,100,
+Top5Similarity+Centroids_saturation_high_seed_44,100,
+Top5Similarity+Random_seed_44,86,86.0
+Top5Similarity+LHS_seed_44,100,
+Top5Similarity+K-Means_seed_44,85,85.0
+Top5Similarity+Farthest_seed_44,66,66.0
+Top5Similarity+ODAL_seed_44,100,
+Top5Similarity+K-Center_seed_44,48,48.0
+Max Comp+Top5Similarity,100,63.0
+Max Comp+Min Comp,40,40.0
+Max Comp+Centroids_saturation_low_seed_44,50,50.0
+Max Comp+Centroids_saturation_medium_seed_44,55,55.0
+Max Comp+Centroids_saturation_high_seed_44,55,55.0
+Max Comp+Random_seed_44,66,66.0
+Max Comp+LHS_seed_44,59,59.0
+Max Comp+K-Means_seed_44,59,59.0
+Max Comp+Farthest_seed_44,50,50.0
+Max Comp+ODAL_seed_44,100,65.0
+Max Comp+K-Center_seed_44,38,38.0
+Min Comp+Top5Similarity,41,41.0
+Min Comp+Max Comp,40,40.0
+Min Comp+Centroids_saturation_low_seed_44,37,37.0
+Min Comp+Centroids_saturation_medium_seed_44,40,40.0
+Min Comp+Centroids_saturation_high_seed_44,41,41.0
+Min Comp+Random_seed_44,40,40.0
+Min Comp+LHS_seed_44,50,50.0
+Min Comp+K-Means_seed_44,58,58.0
+Min Comp+Farthest_seed_44,43,43.0
+Min Comp+ODAL_seed_44,50,50.0
+Min Comp+K-Center_seed_44,39,39.0
+Centroids_saturation_low_seed_44+Top5Similarity,100,
+Centroids_saturation_low_seed_44+Max Comp,50,50.0
+Centroids_saturation_low_seed_44+Min Comp,37,37.0
+Centroids_saturation_low_seed_44+Centroids_saturation_medium_seed_44,100,
+Centroids_saturation_low_seed_44+Centroids_saturation_high_seed_44,100,
+Centroids_saturation_low_seed_44+Random_seed_44,100,
+Centroids_saturation_low_seed_44+LHS_seed_44,100,
+Centroids_saturation_low_seed_44+K-Means_seed_44,97,97.0
+Centroids_saturation_low_seed_44+Farthest_seed_44,78,78.0
+Centroids_saturation_low_seed_44+ODAL_seed_44,100,
+Centroids_saturation_low_seed_44+K-Center_seed_44,48,48.0
+Centroids_saturation_medium_seed_44+Top5Similarity,100,
+Centroids_saturation_medium_seed_44+Max Comp,55,55.0
+Centroids_saturation_medium_seed_44+Min Comp,40,40.0
+Centroids_saturation_medium_seed_44+Centroids_saturation_low_seed_44,100,
+Centroids_saturation_medium_seed_44+Centroids_saturation_high_seed_44,100,
+Centroids_saturation_medium_seed_44+Random_seed_44,100,
+Centroids_saturation_medium_seed_44+LHS_seed_44,100,
+Centroids_saturation_medium_seed_44+K-Means_seed_44,100,
+Centroids_saturation_medium_seed_44+Farthest_seed_44,71,71.0
+Centroids_saturation_medium_seed_44+ODAL_seed_44,100,
+Centroids_saturation_medium_seed_44+K-Center_seed_44,41,41.0
+Centroids_saturation_high_seed_44+Top5Similarity,100,
+Centroids_saturation_high_seed_44+Max Comp,55,55.0
+Centroids_saturation_high_seed_44+Min Comp,41,41.0
+Centroids_saturation_high_seed_44+Centroids_saturation_low_seed_44,100,
+Centroids_saturation_high_seed_44+Centroids_saturation_medium_seed_44,100,
+Centroids_saturation_high_seed_44+Random_seed_44,100,
+Centroids_saturation_high_seed_44+LHS_seed_44,100,
+Centroids_saturation_high_seed_44+K-Means_seed_44,97,97.0
+Centroids_saturation_high_seed_44+Farthest_seed_44,72,72.0
+Centroids_saturation_high_seed_44+ODAL_seed_44,100,
+Centroids_saturation_high_seed_44+K-Center_seed_44,43,43.0
+Random_seed_44+Top5Similarity,86,86.0
+Random_seed_44+Max Comp,66,66.0
+Random_seed_44+Min Comp,40,40.0
+Random_seed_44+Centroids_saturation_low_seed_44,100,
+Random_seed_44+Centroids_saturation_medium_seed_44,100,
+Random_seed_44+Centroids_saturation_high_seed_44,100,
+Random_seed_44+LHS_seed_44,79,79.0
+Random_seed_44+K-Means_seed_44,100,
+Random_seed_44+Farthest_seed_44,67,67.0
+Random_seed_44+ODAL_seed_44,88,88.0
+Random_seed_44+K-Center_seed_44,45,45.0
+LHS_seed_44+Top5Similarity,100,
+LHS_seed_44+Max Comp,59,59.0
+LHS_seed_44+Min Comp,50,50.0
+LHS_seed_44+Centroids_saturation_low_seed_44,100,
+LHS_seed_44+Centroids_saturation_medium_seed_44,100,
+LHS_seed_44+Centroids_saturation_high_seed_44,100,
+LHS_seed_44+Random_seed_44,79,79.0
+LHS_seed_44+K-Means_seed_44,77,77.0
+LHS_seed_44+Farthest_seed_44,75,75.0
+LHS_seed_44+ODAL_seed_44,100,
+LHS_seed_44+K-Center_seed_44,38,38.0
+K-Means_seed_44+Top5Similarity,85,85.0
+K-Means_seed_44+Max Comp,59,59.0
+K-Means_seed_44+Min Comp,58,58.0
+K-Means_seed_44+Centroids_saturation_low_seed_44,97,97.0
+K-Means_seed_44+Centroids_saturation_medium_seed_44,100,
+K-Means_seed_44+Centroids_saturation_high_seed_44,97,97.0
+K-Means_seed_44+Random_seed_44,100,
+K-Means_seed_44+LHS_seed_44,77,77.0
+K-Means_seed_44+Farthest_seed_44,78,78.0
+K-Means_seed_44+ODAL_seed_44,100,
+K-Means_seed_44+K-Center_seed_44,45,45.0
+Farthest_seed_44+Top5Similarity,66,66.0
+Farthest_seed_44+Max Comp,50,50.0
+Farthest_seed_44+Min Comp,43,43.0
+Farthest_seed_44+Centroids_saturation_low_seed_44,78,78.0
+Farthest_seed_44+Centroids_saturation_medium_seed_44,71,71.0
+Farthest_seed_44+Centroids_saturation_high_seed_44,72,72.0
+Farthest_seed_44+Random_seed_44,67,67.0
+Farthest_seed_44+LHS_seed_44,75,75.0
+Farthest_seed_44+K-Means_seed_44,78,78.0
+Farthest_seed_44+ODAL_seed_44,69,69.0
+Farthest_seed_44+K-Center_seed_44,39,39.0
+ODAL_seed_44+Top5Similarity,100,
+ODAL_seed_44+Max Comp,100,65.0
+ODAL_seed_44+Min Comp,50,50.0
+ODAL_seed_44+Centroids_saturation_low_seed_44,100,
+ODAL_seed_44+Centroids_saturation_medium_seed_44,100,
+ODAL_seed_44+Centroids_saturation_high_seed_44,100,
+ODAL_seed_44+Random_seed_44,88,88.0
+ODAL_seed_44+LHS_seed_44,100,
+ODAL_seed_44+K-Means_seed_44,100,
+ODAL_seed_44+Farthest_seed_44,69,69.0
+ODAL_seed_44+K-Center_seed_44,42,42.0
+K-Center_seed_44+Top5Similarity,48,48.0
+K-Center_seed_44+Max Comp,38,38.0
+K-Center_seed_44+Min Comp,39,39.0
+K-Center_seed_44+Centroids_saturation_low_seed_44,48,48.0
+K-Center_seed_44+Centroids_saturation_medium_seed_44,41,41.0
+K-Center_seed_44+Centroids_saturation_high_seed_44,43,43.0
+K-Center_seed_44+Random_seed_44,45,45.0
+K-Center_seed_44+LHS_seed_44,38,38.0
+K-Center_seed_44+K-Means_seed_44,45,45.0
+K-Center_seed_44+Farthest_seed_44,39,39.0
+K-Center_seed_44+ODAL_seed_44,42,42.0

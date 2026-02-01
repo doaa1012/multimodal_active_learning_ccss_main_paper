@@ -133,6 +133,13 @@ def analyze_stopping_iteration_differences(base_dir, save_csv_path, save_plot_pa
 
     #print(f"Plot saved to '{save_plot_path}'")
     plt.close()
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import os
+import numpy as np
+from matplotlib.colors import ListedColormap, BoundaryNorm
+from matplotlib.patches import Patch
 
 def plot_decreased_only_heatmap_sorted(comparison_df, save_path):
     if comparison_df.empty:
@@ -168,22 +175,37 @@ def plot_decreased_only_heatmap_sorted(comparison_df, save_path):
         aggfunc="mean"
     )
 
-    # Compute column averages and filter
+    # Filter by average threshold
     column_means = heatmap_data.fillna(0).mean(axis=0)
-    selected_columns = column_means[column_means > 162].sort_values(ascending=False).index
+    selected_columns = column_means[column_means > 197].sort_values(ascending=False).index
     heatmap_data = heatmap_data[selected_columns]
-
-    annot_labels = heatmap_data.map(lambda x: f"{int(x)}" if pd.notnull(x) else "")
-
-    # Save rankings
-    strategy_ranking = column_means.sort_values(ascending=False)
-    csv_path = os.path.join(os.path.dirname(save_path), "strategy_reduction_ranking.csv")
-    strategy_ranking.to_csv(csv_path, header=["AvgReduction"])
 
     if heatmap_data.empty:
         print("No strategies with average reduction over threshold.")
         return
 
+    # Prepare annotation text (add "NI" for NaNs)
+    annot_labels = heatmap_data.applymap(lambda x: f"{int(x)}" if pd.notnull(x) else "NI")
+
+    # Convert to percentage for coloring
+    percent_data = heatmap_data / BASE_MEASUREMENTS * 100
+    mask = heatmap_data.isna()
+
+    # Pastel1 base colors (manually extract 9)
+    base_colors = sns.color_palette("Pastel1")
+    gray_color = (0.85, 0.85, 0.85)
+
+    # Define bins for mapping to pastel colors
+    vmin = np.nanmin(percent_data.values)
+    vmax = np.nanmax(percent_data.values)
+    n_bins = 9
+
+    boundaries = np.linspace(vmin, vmax, n_bins + 1)
+    cmap = ListedColormap([gray_color] + base_colors[::-1])  # Gray first, then reversed colors
+
+    norm = BoundaryNorm(boundaries, ncolors=cmap.N)
+
+    # Plot
     sns.set_theme(style="whitegrid")
     sns.set(font_scale=0.8)
 
@@ -192,52 +214,79 @@ def plot_decreased_only_heatmap_sorted(comparison_df, save_path):
                  max(6, 0.4 * len(heatmap_data.index)))
     )
 
+   # Draw heatmap
     sns.heatmap(
-        heatmap_data,
-        cmap="Reds",
+        percent_data,
+        cmap=cmap,
+        norm=norm,
         annot=annot_labels,
         fmt="",
         linewidths=0.5,
         linecolor="gray",
         square=True,
+        mask=mask,
         ax=ax,
         cbar_kws={
-            "label": "Total Measurements Reduction",
+            "label": "Total Measurement Reduction",
             "shrink": 0.5,
             "aspect": 10,
-            "pad": 0.01
-        }
+            "pad": 0.01,
+            "ticks": boundaries[1:]  # skip gray bin
+        },
+        annot_kws={"fontsize": 8}
     )
 
-    # Axis labels
+    # ✅ Manually draw 'NI' in masked cells
+    for y in range(percent_data.shape[0]):
+        for x in range(percent_data.shape[1]):
+            if pd.isna(percent_data.iloc[y, x]):
+                ax.text(
+                    x + 0.5, y + 0.5, 'NI',
+                    ha='center', va='center',
+                    fontsize=8, color='black'
+                )
+
+
+    # Labels
     ax.set_ylabel("Materials Library ID", fontsize=12.5)
     ax.set_xlabel("Initialization Strategy", fontsize=15)
 
-    # Tick labels
+    # Tick style
     ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha='right', fontsize=12)
     ax.set_yticklabels(ax.get_yticklabels(), fontsize=10)
 
-    # Customize colorbar
+ 
+    # Customize colorbar to include "NI" at the bottom
     cbar = ax.collections[0].colorbar
-    ticks = cbar.get_ticks()
-    ticklabels = []
-    for t in ticks:
-        perc = 100 * t / BASE_MEASUREMENTS
-        ticklabels.append(f"{int(t)} ({perc:.0f}%)")
+    ticks = boundaries  # include first bin for NI
+    ticklabels = ['NI'] + [f"{int(p / 100 * BASE_MEASUREMENTS)} ({int(p)}%)" for p in boundaries[1:]]
+
+    # Set ticks and labels
     cbar.set_ticks(ticks)
     cbar.set_ticklabels(ticklabels)
     cbar.ax.set_ylabel("Total Measurement Reduction", fontsize=13)
 
-    # Remove axis spines
+    # Optional: Emphasize NI visually (e.g., bold or larger font)
+    cbar.ax.get_yticklabels()[0].set_weight("bold")
+
+
+
+    # Remove borders
     for spine in ax.spines.values():
         spine.set_visible(False)
 
     fig.subplots_adjust(right=0.88, bottom=0.3)
 
-    # Save
+    # Save CSV ranking
+    strategy_ranking = column_means.sort_values(ascending=False)
+    csv_path = os.path.join(os.path.dirname(save_path), "strategy_reduction_ranking.csv")
+    strategy_ranking.to_csv(csv_path, header=["AvgReduction"])
+
+    # Save figure
     plt.savefig(save_path.replace('.png', '.pdf'),
                 format='pdf', bbox_inches='tight', pad_inches=0.1)
     plt.show()
+
 
  
 def plot_heatmap_base_less_than_100(comparison_df, save_path):

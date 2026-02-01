@@ -216,6 +216,15 @@ def plot_all_base_and_mixed_strategies(df, main_strategy, base_strategies, save_
 
     # Axis, labels, legend
     ax.set_xlabel("Iteration", fontsize=14)
+    ax.text(
+        0.5, -0.18,
+        "Total number of measurements = Iteration + 10 (Initial measurements)",
+        transform=ax.transAxes,
+        fontsize=11,
+        ha='center',
+        va='top'
+    )
+
     ax.set_ylabel("Mean Absolute Error (MAE)", fontsize=14)
     ax.tick_params(axis='both', labelsize=14)
     ax.grid(True, linestyle='--', alpha=0.6)
@@ -242,14 +251,13 @@ def plot_all_base_and_mixed_strategies(df, main_strategy, base_strategies, save_
         #print(f"Saved plot to: {save_path}")
     else:
         plt.show()
-import pandas as pd
-import matplotlib.pyplot as plt
+
 
 def plot_initialization_strategies(
     csv_path,
     all_init_strategies,
     strategy_order=None,
-    strategy_rename=None,   # <-- added here
+    strategy_rename=None,   
     resistance_col="Resistance",
     x_col="x",
     y_col="y",

@@ -1,0 +1,11 @@
+Strategy,StoppingIteration,GradientStableIteration
+Top8Similarity,81,30.0
+Centroids_saturation_high,100,
+Centroids_saturation_medium,100,
+Centroids_saturation_low,71,71.0
+Random,100,
+LHS,100,
+K-Means,100,
+Farthest,64,41.0
+ODAL,59,59.0
+K-Center,72,72.0

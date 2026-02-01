@@ -14,6 +14,7 @@ from pyDOE2 import lhs
 from scripts.measurement_devices import Resistance
 from scripts.gaussian_process_basic import GPBasic
 from scripts.gaussian_process_sawei import GPSawei
+from scripts.gaussian_process_basic_new import GPBasic
 import json
 
 def loop(df, features, target, init, imax, gp_class=GPBasic, mae_threshold=0.005):
@@ -72,6 +73,62 @@ def loop(df, features, target, init, imax, gp_class=GPBasic, mae_threshold=0.005
 
     return mae_collection, mean_collection, stopping_index, gradient_stable_index
 
+def loop_new(df, features, target, init, imax, gp_class=GPBasic, 
+         mae_threshold=0.005, strategy="EI"):
+
+    device = Resistance(df, features=features, target=target)
+    X = device.get_features()
+    y_ref = device.df[target[0]]
+
+    X0, y0 = device.get_initial_measurement(indices=init, target_property=target[0])
+    model = gp_class(X0, y0, device.features)
+
+    model.predict(X)
+    resistance1 = model.mu
+    error = MAE(np.exp(resistance1), np.exp(y_ref))
+
+    #  FIRST ACQUISITION
+    _, index_max_cov, _ = model.select_next_point(X, strategy=strategy)
+
+    mae_collection = [error]
+    mean_collection = [np.exp(resistance1)]
+    stopping_index = imax
+    gradient_stable_index = None
+
+    for i in range(imax):
+
+        X_tmp, y_tmp = device.get_measurement(
+            indices=[index_max_cov], target_property=target[0]
+        )
+
+        model.update_Xy(X_tmp, y_tmp)
+        model.predict(X)
+
+        error = MAE(np.exp(model.mu), np.exp(y_ref))
+        mae_collection.append(error)
+        mean_collection.append(np.exp(model.mu))
+
+        print(f"Iteration {i+1}: MAE = {error:.5f}")
+
+        stop, gradient_idx = model.check_stopping_condition(
+            X, np.exp(y_ref), mae_threshold=mae_threshold
+        )
+
+        if gradient_stable_index is None and gradient_idx is not None:
+            gradient_stable_index = gradient_idx
+
+        if stop:
+            stopping_index = i + 1
+            print(f"Stopping early at iteration {stopping_index}.")
+            break
+
+        #  NEW ACQUISITION STEP
+        _, index_max_cov, _ = model.select_next_point(X, strategy=strategy)
+
+    del device
+    del model
+
+    return mae_collection, mean_collection, stopping_index, gradient_stable_index
 
 
 def select_initial_indices(X, n_init=5, seed=42):
@@ -307,4 +364,127 @@ def run_active_learning_experiment(
             print(f"\nError processing dataset {dataset_path}: {e}")
             traceback.print_exc()
 
+
+
+def run_active_learning_experiment(
+    datasets,
+    init_json_dir,
+    output_base_path,
+    generate_full_merged_strategies,
+    loop_function,              # pass loop_new here
+    ResistanceClass,
+    GPModelClass,
+    target_col="Resistance",
+    excluded_cols=["ID", "x", "y"]
+):
+    acquisition_methods = ["VAR", "EI", "UCB"]  # strategies to compare
+
+    for dataset_path in datasets:
+        try:
+            dataset_name = os.path.basename(dataset_path).split("_")[0]
+            print(f"\nProcessing dataset: {dataset_name}")
+
+            data_exp = pd.read_csv(dataset_path)
+
+            if data_exp.empty:
+                print(f"Warning: Dataset {dataset_name} is empty.")
+                continue
+
+            json_path = os.path.join(init_json_dir, f"{dataset_name}_indices.json")
+            if not os.path.exists(json_path):
+                print(f"JSON file not found for {dataset_name}, skipping.")
+                continue
+
+            with open(json_path, "r") as f:
+                init_choices = json.load(f)
+
+            init_choices = generate_full_merged_strategies(init_choices)
+
+            all_columns = data_exp.columns.tolist()
+            features = [col for col in all_columns if col not in excluded_cols + [target_col]]
+            target = [target_col]
+
+            data_exp[target] = np.log(data_exp[target])
+
+            output_dir = os.path.join(output_base_path, dataset_name + "_results")
+            os.makedirs(output_dir, exist_ok=True)
+
+            params_exp = {
+                "df": data_exp,
+                "features": features,
+                "target": target,
+                "max_iter": 100,
+            }
+
+            mae_priors = {}
+            mean_priors = {}
+            stopping_indices = {}
+            gradient_indices = {}
+
+            # 🔥 MAIN EXPERIMENT LOOP
+            for prior in init_choices:
+                init = init_choices[prior]
+
+                for acq in acquisition_methods:
+                    strategy_name = f"{prior}_{acq}"
+                    print(f"\nRunning strategy: {strategy_name}")
+
+                    try:
+                        mae_tmp, mean_tmp, stop_idx, grad_idx = loop_function(
+                            params_exp["df"],
+                            params_exp["features"],
+                            params_exp["target"],
+                            init,
+                            params_exp["max_iter"],
+                            gp_class=GPModelClass,
+                            strategy=acq
+                        )
+
+                        mae_priors[strategy_name] = mae_tmp
+                        mean_priors[strategy_name] = mean_tmp
+                        stopping_indices[strategy_name] = stop_idx
+                        gradient_indices[strategy_name] = grad_idx
+
+                        # Save final predictions
+                        final_pred = mean_tmp[-1]
+                        final_true = np.exp(data_exp[target_col].values)
+
+                        pred_df = pd.DataFrame({
+                            "True Resistance": final_true.flatten(),
+                            "Predicted Resistance": final_pred.flatten()
+                        })
+
+                        pred_csv_path = os.path.join(output_dir, f"{strategy_name}_final_predictions.csv")
+                        pred_df.to_csv(pred_csv_path, index=False)
+
+                    except Exception as strategy_error:
+                        print(f"Error in {strategy_name}: {strategy_error}")
+                        traceback.print_exc()
+
+            # 📊 SAVE MAE CURVES
+            max_len = max(len(v) for v in mae_priors.values())
+            mae_df = pd.DataFrame({k: v + [None] * (max_len - len(v)) for k, v in mae_priors.items()})
+            mae_df.to_csv(os.path.join(output_dir, "mae_priors_results.csv"), index=False)
+
+            # 🛑 SAVE STOPPING INFO
+            stopping_df = pd.DataFrame({
+                "StoppingIteration": pd.Series(stopping_indices),
+                "GradientStableIteration": pd.Series(gradient_indices)
+            })
+            stopping_df.index.name = "Strategy"
+            stopping_df.to_csv(os.path.join(output_dir, "mae_priors_stopping_indices.csv"))
+
+            # 📦 SAVE PICKLE
+            with open(os.path.join(output_dir, "mae_priors_all_results.pkl"), "wb") as f:
+                pickle.dump({
+                    "mae": mae_priors,
+                    "stop_idx": stopping_indices,
+                    "grad_idx": gradient_indices
+                }, f)
+
+            print(f"Finished processing dataset: {dataset_name}")
+
+        except Exception as e:
+            print(f"\nError processing dataset {dataset_path}: {e}")
+            traceback.print_exc()
 

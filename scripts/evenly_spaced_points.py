@@ -6,22 +6,27 @@ from scripts.measurement_devices import *
 from scripts.gaussian_process_sawei import GPSawei
 from scripts.run_active_learning import *
 
-def select_paper_style_points(df, x_col='x', y_col='y', inner_step=6):
+
+
+def select_paper_style_points(df, x_col='x', y_col='y', id_col='ID', center_id=168, inner_step=3):
     """
-    Select 9 points like the paper:
-      - 1 center
-      - 4 inner points around center (offset by `inner_step` grid positions)
-      - 4 mid-side outer points
+    Select 9 paper-style points aligned to TRUE experimental center (ID=168).
     """
-    # Make sorted unique coordinate grids
+
     x_vals = np.sort(df[x_col].unique())
     y_vals = np.sort(df[y_col].unique())
-    
-    # center grid index
-    cx = len(x_vals)//2
-    cy = len(y_vals)//2
 
-    # index positions for the 4 inner points
+    # ---- TRUE center from your study ----
+    center_row = df[df[id_col] == center_id].iloc[0]
+    x_center = center_row[x_col]
+    y_center = center_row[y_col]
+
+    # convert to grid indices
+    cx = np.where(x_vals == x_center)[0][0]
+    cy = np.where(y_vals == y_center)[0][0]
+
+    center_pos = (cx, cy)
+
     inner_positions = [
         (cx - inner_step, cy - inner_step),
         (cx - inner_step, cy + inner_step),
@@ -29,8 +34,6 @@ def select_paper_style_points(df, x_col='x', y_col='y', inner_step=6):
         (cx + inner_step, cy + inner_step),
     ]
 
-    # center and mid-side positions
-    center_pos = (cx, cy)
     side_positions = [
         (0, cy),
         (len(x_vals)-1, cy),
@@ -38,13 +41,13 @@ def select_paper_style_points(df, x_col='x', y_col='y', inner_step=6):
         (cx, len(y_vals)-1),
     ]
 
-    # Combine all 9 target coordinates in (x,y)
     def find_nearest_idx(x_target, y_target):
         d = (df[x_col]-x_target)**2 + (df[y_col]-y_target)**2
         return int(d.idxmin())
 
     all_targets = [center_pos] + inner_positions + side_positions
     selected_indices = []
+
     for xi, yi in all_targets:
         xi = np.clip(xi, 0, len(x_vals)-1)
         yi = np.clip(yi, 0, len(y_vals)-1)
@@ -52,7 +55,7 @@ def select_paper_style_points(df, x_col='x', y_col='y', inner_step=6):
         y_target = y_vals[yi]
         selected_indices.append(find_nearest_idx(x_target, y_target))
 
-    return list(set(selected_indices))
+    return sorted(set(selected_indices))
 
 
 
