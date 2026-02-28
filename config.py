@@ -18,6 +18,7 @@ Top8_Similarity_Summary=os.path.join(RESISTANCE_RAW , "Top8_Similarity_Summary.c
 EDX_min_max_summary=os.path.join(RESISTANCE_RAW , "EDX_min_max_summary.csv")
 MAPPED_CENTROIDS_JSON = os.path.join(RESISTANCE_RAW , "centroids_mapped_with_indices.json")
 MAPPED_CENTROIDS_JSON_8 = os.path.join(RESISTANCE_RAW , "centroids_mapped_with_indices_8.json")
+MAPPED_CENTROIDS_JSON_SEEDS = os.path.join(RESISTANCE_RAW , "centroids_mapped_with_indices_seeds.json")
 
 # images paths
 Au_Pd_Pt_Rh_0010304=os.path.join(RESISTANCE_RAW, "0010304")
@@ -46,7 +47,11 @@ Au_Cu_Pd_Pt_photo_0010399=os.path.join(Au_Cu_Pd_Pt_0010399 , "Photo_0010399_Au-C
 
 # Clean data
 DATA_CLEAN_InIT_CHOICES = os.path.join(DATA_CLEAN_PATH, "init_choices")
+DATA_CLEAN_InIT_CHOICES_SEEDS = os.path.join(DATA_CLEAN_PATH, "seeds")
 INIT_CHOICES_N8_DIR = os.path.join(DATA_CLEAN_PATH, "DATA_CLEAN_InIT_CHOICES_8")
+RANDOM_InIT_CHOICES = os.path.join(DATA_CLEAN_PATH, "Random_init")
+RANDOM_InIT_CHOICES_10 = os.path.join(DATA_CLEAN_PATH, "Random_init_10")
+
 
 RESISTANCE_CLEANED_FILES = os.path.join(DATA_CLEAN_PATH, "resistance_cleaned_files")
 DATASET_10272_Ag_Au_Pd_RT= os.path.join(RESISTANCE_CLEANED_FILES, "10272_Ag-Au-Pd_RT.csv")
@@ -64,6 +69,8 @@ Wafer_Output_Dir= os.path.join(DATA_RESULTS_PATH , "wafer_output_black")
 MiX_SELECTION_ANALYSIS = os.path.join(DATA_RESULTS_PATH , "mix_selection_analysis")
 
 UNCERTAINTY_PATH = os.path.join(DATA_RESULTS_PATH, "Uncertainty")
+UNCERTAINTY_PATH_Random = os.path.join(DATA_RESULTS_PATH, "Uncertainty_Random")
+UNCERTAINTY_PATH_Random_10 = os.path.join(DATA_RESULTS_PATH, "Uncertainty_Random_10")
 
 Results_10272 = os.path.join(UNCERTAINTY_PATH, "10272_results")
 MAE_PRIORS_10272 = os.path.join(Results_10272, "mae_priors_results.csv")
@@ -90,7 +97,8 @@ Results_10403 = os.path.join(UNCERTAINTY_PATH, "10403_results")
 MAE_PRIORS_10403 = os.path.join(Results_10403, "mae_priors_results.csv")
 
 #SEEDS of 10311 dataset
-UNCERTAINTY_PATH_SEEDS = os.path.join(UNCERTAINTY_PATH, "SEEDS")
+UNCERTAINTY_PATH_SEEDS = os.path.join(DATA_RESULTS_PATH, "Uncertainty_Seeds")
+SAWEI_PATH_SEEDS = os.path.join(DATA_RESULTS_PATH, "Sawei_Seeds")
 Results_10311_uncertainty_seeds = os.path.join(UNCERTAINTY_PATH_SEEDS, "10311_results")
 
 # Results data for UNCERTAINTY_PATH_10
@@ -99,6 +107,8 @@ UNCERTAINTY_PATH_8 = os.path.join(DATA_RESULTS_PATH, "Uncertainty_8_points")
 
 # Sawei results
 SAWEI_PATH = os.path.join(DATA_RESULTS_PATH, "Sawei")
+SAWEI_PATH_Random = os.path.join(DATA_RESULTS_PATH, "SAWEI_Random")
+SAWEI_PATH_Random_10 = os.path.join(DATA_RESULTS_PATH, "SAWEI_Random_10")
 
 Results_10374_sawei = os.path.join(SAWEI_PATH, "10374_results")
 MAE_PRIORS_10374_sawei = os.path.join(Results_10374_sawei, "mae_priors_results.csv")
@@ -130,7 +140,7 @@ EVENLY_PATH_Uncertainty= os.path.join(EVENLY_PATH, "Uncertainty")
 EVENLY_PATH_Sawei= os.path.join(EVENLY_PATH, "Sawei")
 
 #SEEDS of 10311 dataset
-SAWEI_PATH_SEEDS = os.path.join(SAWEI_PATH, "SEEDS")
+
 Results_10311_sawei_seeds = os.path.join(SAWEI_PATH_SEEDS, "10311_results")
 # Sawei results_8
 SAWEI_PATH_8 = os.path.join(DATA_RESULTS_PATH, "Sawei_8_points")

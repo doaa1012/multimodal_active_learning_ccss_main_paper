@@ -1,9 +1,9 @@
 MaterialID,TopStrategy,StoppingIteration,EvenlyStoppingIteration,Improvement,ImprovementPercent
-10272,Top5Similarity+Min Comp,33,36,3,8.33
-10275,Random+ODAL,44,100,56,56.0
-10304,Top5Similarity+K-Center,53,78,25,32.05
-10311,Top5Similarity+Min Comp,33,99,66,66.67
+10272,Top5Similarity+Min Comp,33,42,9,21.43
+10275,Random+ODAL,44,76,32,42.11
+10304,Top5Similarity+K-Center,53,100,47,47.0
+10311,Top5Similarity+Min Comp,33,92,59,64.13
 10403,K-Means+Farthest,35,100,65,65.0
-10402,Min Comp+K-Means,52,100,48,48.0
-10399,Top5Similarity+Max Comp,43,84,41,48.81
-10374,Min Comp+K-Center,39,51,12,23.53
+10402,Min Comp+K-Means,52,69,17,24.64
+10399,Top5Similarity+Max Comp,43,85,42,49.41
+10374,Min Comp+K-Center,39,100,61,61.0

@@ -1,27 +1,99 @@
 Strategy,StoppingIteration,EvenlyStoppingIteration
-Centroids_saturation_high+K-Means,48,51
-K-Means+Centroids_saturation_high,48,51
-Centroids_saturation_high+Random,37,51
-Random+Centroids_saturation_high,37,51
-Min Comp+Centroids_saturation_low,44,51
-Centroids_saturation_low+Min Comp,44,51
-Centroids_saturation_low+Random,40,51
-Random+Centroids_saturation_low,40,51
-Top5Similarity+Centroids_saturation_low,49,51
-Centroids_saturation_low+Top5Similarity,49,51
-Centroids_saturation_medium+Random,46,51
-Random+Centroids_saturation_medium,46,51
-Top5Similarity+Centroids_saturation_medium,47,51
-Centroids_saturation_medium+Top5Similarity,47,51
-K-Means+K-Center,40,51
-K-Center+K-Means,40,51
-K-Means+ODAL,50,51
-ODAL+K-Means,50,51
-Random+K-Means,35,51
-K-Means+Random,35,51
-Min Comp+LHS,37,51
-LHS+Min Comp,37,51
-Max Comp+Min Comp,47,51
-Min Comp+Max Comp,47,51
-Top5Similarity+Random,39,51
-Random+Top5Similarity,39,51
+Centroids_saturation_high+Centroids_saturation_low,61,100
+Centroids_saturation_low+Centroids_saturation_high,61,100
+Centroids_saturation_high+Centroids_saturation_medium,63,100
+Centroids_saturation_medium+Centroids_saturation_high,64,100
+Centroids_saturation_high+Farthest,65,100
+Farthest+Centroids_saturation_high,65,100
+Centroids_saturation_high+K-Means,48,100
+K-Means+Centroids_saturation_high,48,100
+Max Comp+Centroids_saturation_high,68,100
+Centroids_saturation_high+Max Comp,68,100
+Min Comp+Centroids_saturation_high,51,100
+Centroids_saturation_high+Min Comp,51,100
+Centroids_saturation_high+Random,37,100
+Random+Centroids_saturation_high,37,100
+Top5Similarity+Centroids_saturation_high,77,100
+Centroids_saturation_high+Top5Similarity,77,100
+Centroids_saturation_medium+Centroids_saturation_low,66,100
+Centroids_saturation_low+Centroids_saturation_medium,66,100
+Centroids_saturation_low+Farthest,68,100
+Farthest+Centroids_saturation_low,68,100
+Max Comp+Centroids_saturation_low,67,100
+Centroids_saturation_low+Max Comp,67,100
+Min Comp+Centroids_saturation_low,44,100
+Centroids_saturation_low+Min Comp,44,100
+Centroids_saturation_low+ODAL,97,100
+ODAL+Centroids_saturation_low,97,100
+Centroids_saturation_low+Random,40,100
+Random+Centroids_saturation_low,40,100
+Top5Similarity+Centroids_saturation_low,49,100
+Centroids_saturation_low+Top5Similarity,49,100
+Farthest+Centroids_saturation_medium,83,100
+Max Comp+Centroids_saturation_medium,69,100
+Centroids_saturation_medium+Max Comp,68,100
+Min Comp+Centroids_saturation_medium,51,100
+Centroids_saturation_medium+Min Comp,51,100
+Centroids_saturation_medium+Random,46,100
+Random+Centroids_saturation_medium,46,100
+Top5Similarity+Centroids_saturation_medium,47,100
+Centroids_saturation_medium+Top5Similarity,47,100
+LHS+Farthest,95,100
+Farthest+LHS,95,100
+Max Comp+Farthest,57,100
+Farthest+Max Comp,57,100
+Min Comp+Farthest,54,100
+Farthest+Min Comp,54,100
+Random+Farthest,55,100
+Farthest+Random,55,100
+Top5Similarity+Farthest,54,100
+Farthest+Top5Similarity,54,100
+K-Means+K-Center,40,100
+K-Center+K-Means,40,100
+LHS+K-Center,68,100
+K-Center+LHS,68,100
+Max Comp+K-Center,76,100
+K-Center+Max Comp,76,100
+ODAL+K-Center,51,100
+K-Center+ODAL,51,100
+Random+K-Center,67,100
+K-Center+Random,67,100
+Top5Similarity+K-Center,90,100
+K-Center+Top5Similarity,90,100
+LHS+K-Means,69,100
+K-Means+LHS,65,100
+Max Comp+K-Means,67,100
+K-Means+Max Comp,64,100
+Min Comp+K-Means,51,100
+K-Means+Min Comp,51,100
+K-Means+ODAL,50,100
+ODAL+K-Means,50,100
+Random+K-Means,35,100
+K-Means+Random,35,100
+K-Means+Top5Similarity,84,100
+Max Comp+LHS,70,100
+LHS+Max Comp,70,100
+Min Comp+LHS,37,100
+LHS+Min Comp,37,100
+LHS+ODAL,87,100
+ODAL+LHS,96,100
+Random+LHS,55,100
+LHS+Random,55,100
+Top5Similarity+LHS,77,100
+LHS+Top5Similarity,77,100
+Max Comp+Min Comp,47,100
+Min Comp+Max Comp,47,100
+Max Comp+ODAL,53,100
+ODAL+Max Comp,53,100
+Max Comp+Random,76,100
+Random+Max Comp,76,100
+Min Comp+ODAL,72,100
+ODAL+Min Comp,72,100
+Min Comp+Random,51,100
+Random+Min Comp,56,100
+Top5Similarity+Min Comp,52,100
+Min Comp+Top5Similarity,52,100
+Random+ODAL,53,100
+ODAL+Random,53,100
+Top5Similarity+Random,39,100
+Random+Top5Similarity,39,100

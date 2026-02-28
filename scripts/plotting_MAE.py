@@ -29,6 +29,7 @@ base_strategies = [
     "Centroids_saturation_high", "Centroids_saturation_medium", "Centroids_saturation_low",
     "Random", "LHS", "K-Means", "Farthest", "K-Center", "ODAL"
 ]
+
 def plot_strategy_across_datasets(
     strategy,
     dataset_paths,
@@ -42,7 +43,18 @@ def plot_strategy_across_datasets(
         '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf'
     ]
 
-    fig, ax = plt.subplots(figsize=(10, 5))
+    # ---- style like plot_mixed_random_fixed (local, inside function) ----
+    plt.style.use("seaborn-v0_8-whitegrid")
+    plt.rcParams.update({
+        "font.size": 14,
+        "axes.labelsize": 14,
+        "axes.titlesize": 14,
+        "legend.fontsize": 14,
+        "lines.linewidth": 1.8
+    })
+
+    # match its layout (figsize and general look)
+    fig, ax = plt.subplots(figsize=(9, 6))
     iterations = list(range(100))
 
     for i, path in enumerate(dataset_paths):
@@ -68,53 +80,54 @@ def plot_strategy_across_datasets(
             label=label,
             color=color,
             linestyle='-',
-            linewidth=1.5
+            linewidth=1.6,
+            alpha=0.85,
+            zorder=2
         )
 
+    # measurement uncertainty line (same vibe)
     ax.axhline(
         y=measurement_uncertainty,
         color='black',
-        linestyle='--',
-        linewidth=1.5,
-        label='Measurement Uncertainty'
+        linestyle='-.',
+        linewidth=1.4,
+        label='Measurement Uncertainty',
+        zorder=3
     )
 
-    # Axis labels (larger font)
-    ax.set_xlabel("Iteration", fontsize=15, labelpad=8)
-    ax.set_ylabel("Mean Absolute Error (MAE)", fontsize=15, labelpad=8)
+    # axes formatting like your reference
+    ax.set_xlabel("Iteration", fontsize=14)
+    ax.set_ylabel("Mean Absolute Error (MAE)", fontsize=14)
+    ax.tick_params(axis='both', labelsize=14)
 
-    # Tick labels (larger font)
-    ax.tick_params(axis='both', labelsize=13)
-
-    # Explanatory note below x-label
     ax.text(
         0.5, -0.18,
         "Total number of measurements = Iteration + 5 (Initial measurements)",
         transform=ax.transAxes,
-        fontsize=11,
+        fontsize=14,
         ha='center',
         va='top'
     )
 
-    plt.subplots_adjust(bottom=0.18)
-
-    ax.grid(True, linestyle='--', alpha=0.6)
     ax.set_xlim([0, 100])
 
-    if title:
-        ax.set_title(title, fontsize=16, pad=14)
+    # remove spines like reference
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
 
-    # Legend with bigger font
+    if title:
+        ax.set_title(title, fontsize=14)
+
+    # legend inside, 2 columns, like plot_mixed_random_fixed
     ax.legend(
-        title="Dataset",
-        fontsize=12,          # legend entries
-        title_fontsize=13,    # legend title
-        loc='upper right',
-        bbox_to_anchor=(1.0, 1.0),
+        loc="upper right",
         ncol=2,
         frameon=True,
-        handletextpad=0.4,
-        columnspacing=1.2
+        framealpha=0.9,
+        handlelength=2.5,
+        columnspacing=0.9,
+        borderpad=0.6,
+        fontsize=16
     )
 
     plt.tight_layout()
@@ -125,7 +138,6 @@ def plot_strategy_across_datasets(
         plt.savefig(save_path, format='pdf', bbox_inches='tight', pad_inches=0.1)
     else:
         plt.show()
-
 
 def get_large_color_palette(n):
     """Return n distinct colors by combining colormaps."""
@@ -143,15 +155,25 @@ def get_large_color_palette(n):
 
 
 
+def plot_all_base_and_mixed_strategies(
+    df, main_strategy, base_strategies,
+    save_path=None, measurement_uncertainty=0.005
+):
 
+    plt.style.use("seaborn-v0_8-whitegrid")
+    plt.rcParams.update({
+        "font.size": 14,
+        "axes.labelsize": 14,
+        "axes.titlesize": 14,
+        "legend.fontsize": 12,
+        "lines.linewidth": 1.8
+    })
 
-def plot_all_base_and_mixed_strategies(df, main_strategy, base_strategies, save_path=None, measurement_uncertainty=0.005):
     strategies_to_plot = []
     labels = []
     styles = []
 
     full_strategy_list = []
-
     for base in base_strategies:
         full_strategy_list.append(base)
         full_strategy_list.append(f"{main_strategy}+{base}")
@@ -167,9 +189,8 @@ def plot_all_base_and_mixed_strategies(df, main_strategy, base_strategies, save_
             strategies_to_plot.append(base)
             labels.append(base_label)
 
-            # Special style for even_space
             if base == "even_space":
-                styles.append(("solid", "#d62728"))  # bold red
+                styles.append(("solid", "#d62728"))
             else:
                 styles.append(("solid", color_map[base]))
 
@@ -183,11 +204,11 @@ def plot_all_base_and_mixed_strategies(df, main_strategy, base_strategies, save_
         print("No matching strategies found in the data.")
         return
 
-    fig, ax = plt.subplots(figsize=(12, 7))
+    fig, ax = plt.subplots(figsize=(9, 6))
     iterations = list(range(100))
 
     for strategy, label, (linestyle, color) in zip(strategies_to_plot, labels, styles):
-        raw_values = df[strategy] if strategy in df.columns else pd.Series([None]*100)
+        raw_values = df[strategy]
         interpolated = raw_values.interpolate(limit_direction='both')
         values = interpolated.mask(raw_values.isna()).values[:100]
 
@@ -199,47 +220,46 @@ def plot_all_base_and_mixed_strategies(df, main_strategy, base_strategies, save_
             label=label,
             color=color,
             linestyle=linestyle,
-            linewidth=3.5 if is_even_space else 2,
+            linewidth=3.0 if is_even_space else 1.8,
             marker='o' if is_even_space else None,
             markersize=4 if is_even_space else 0,
-            zorder=10 if is_even_space else 5
+            zorder=10 if is_even_space else 5,
+            alpha=0.9
         )
 
-    # Measurement uncertainty line
     ax.axhline(
         y=measurement_uncertainty,
         color='black',
-        linestyle='--',
-        linewidth=1.2,
+        linestyle='-.',
+        linewidth=1.4,
         label='Measurement Uncertainty'
     )
 
-    # Axis, labels, legend
-    ax.set_xlabel("Iteration", fontsize=14)
+    ax.set_xlabel("Iteration")
+    ax.set_ylabel("Mean Absolute Error (MAE)")
+
     ax.text(
         0.5, -0.18,
         "Total number of measurements = Iteration + 10 (Initial measurements)",
         transform=ax.transAxes,
-        fontsize=11,
         ha='center',
         va='top'
     )
 
-    ax.set_ylabel("Mean Absolute Error (MAE)", fontsize=14)
-    ax.tick_params(axis='both', labelsize=14)
-    ax.grid(True, linestyle='--', alpha=0.6)
     ax.set_xlim([0, 100])
+    ax.tick_params(axis='both')
+
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
 
     ax.legend(
-        title="Strategy",
-        fontsize=12,
-        title_fontsize=14,
-        loc='upper right',
-        bbox_to_anchor=(1.0, 1.0),
+        loc="upper right",
         ncol=2,
         frameon=True,
-        handletextpad=0.4,
-        columnspacing=1.2
+        framealpha=0.9,
+        handlelength=2.5,
+        columnspacing=0.9,
+        borderpad=0.6
     )
 
     plt.tight_layout()
@@ -248,10 +268,8 @@ def plot_all_base_and_mixed_strategies(df, main_strategy, base_strategies, save_
         if not save_path.endswith(".pdf"):
             save_path = save_path.rsplit('.', 1)[0] + ".pdf"
         plt.savefig(save_path, format='pdf', bbox_inches='tight', pad_inches=0.1)
-        #print(f"Saved plot to: {save_path}")
     else:
         plt.show()
-
 
 def plot_initialization_strategies(
     csv_path,
@@ -335,6 +353,69 @@ def plot_initialization_strategies(
     cbar_ax = fig.add_axes([0.92, 0.15, 0.015, 0.7])
     cbar = plt.colorbar(scatter, cax=cbar_ax)
     cbar.set_label("Resistance (Ohm)", fontsize=12)
+
+    if output_path:
+        plt.savefig(output_path, format="pdf", bbox_inches='tight', dpi=300)
+    else:
+        plt.show()
+
+
+def plot_initialization_strategies_4(csv_path, all_init_strategies,
+                                   strategy_order=None,
+                                   resistance_col="Resistance", x_col="x", y_col="y",
+                                   max_points=342, output_path=None):
+ 
+
+    data = pd.read_csv(csv_path).iloc[:max_points]
+    x = data[x_col].values
+    y = data[y_col].values
+    resistance = data[resistance_col].values
+
+    cmap = plt.colormaps["plasma"]
+
+    # Use given order or default to dict order
+    if strategy_order is None:
+        strategy_order = list(all_init_strategies.keys())
+
+    num_strategies = len(strategy_order)
+    cols = 4
+    rows = (num_strategies // cols) + (num_strategies % cols > 0)
+
+    fig, axes = plt.subplots(nrows=rows, ncols=cols, figsize=(15, rows * 4))
+    axes = axes.flatten()
+
+    vmin, vmax = resistance.min(), resistance.max()
+    scatter = None  # For the colorbar
+
+    for idx, strategy in enumerate(strategy_order):
+        if idx >= len(axes):
+            break
+
+        indices = all_init_strategies[strategy]
+        ax = axes[idx]
+        ax.set_aspect("equal")
+
+        scatter = ax.scatter(x, y, c=resistance, cmap=cmap, marker="s", s=50, vmin=vmin, vmax=vmax)
+        ax.scatter(x[indices], y[indices], c="white", marker="X", s=200, edgecolor="black", linewidth=2)
+        ax.scatter(x[indices], y[indices], c="red", marker="o", s=100, edgecolor="black", linewidth=1, alpha=0.8)
+
+        for i in indices:
+            ax.text(x[i], y[i], 'X', fontsize=12, color='black', ha='center', va='center', fontweight='bold')
+
+        ax.set_xticks([])
+        ax.set_yticks([])
+        ax.set_title(strategy, fontsize=14)
+
+    # Hide unused subplots
+    for i in range(idx + 1, len(axes)):
+        axes[i].axis("off")
+
+    # Add colorbar inside the figure
+    cbar_ax = fig.add_axes([0.92, 0.15, 0.015, 0.7])
+    cbar = plt.colorbar(scatter, cax=cbar_ax)
+    cbar.set_label("Resistance (Ohm)", fontsize=12)
+
+    plt.tight_layout(rect=[0, 0, 0.9, 1])  # Leave space for colorbar
 
     if output_path:
         plt.savefig(output_path, format="pdf", bbox_inches='tight', dpi=300)

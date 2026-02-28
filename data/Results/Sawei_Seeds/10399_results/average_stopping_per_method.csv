@@ -1,0 +1,24 @@
+Strategy,Average_StoppingIteration
+Top5Similarity,100.0
+Max Comp,75.0
+Min Comp,100.0
+Centroids_saturation_low,100.0
+Centroids_saturation_medium,100.0
+Centroids_saturation_high,100.0
+Random,84.2
+LHS,97.2
+K-Means,67.5
+Farthest,83.9
+ODAL,88.1
+K-Center,79.5
+Random+Top5Similarity,82.4
+Random+Max Comp,53.7
+Random+Min Comp,68.9
+Random+Centroids_saturation_low,86.4
+Random+Centroids_saturation_medium,88.5
+Random+Centroids_saturation_high,89.8
+Random+LHS,81.4
+Random+K-Means,82.2
+Random+Farthest,76.1
+Random+ODAL,75.5
+Random+K-Center,80.5

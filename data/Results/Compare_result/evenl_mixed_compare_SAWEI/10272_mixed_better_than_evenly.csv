@@ -1,5 +1,15 @@
 Strategy,StoppingIteration,EvenlyStoppingIteration
-Top5Similarity+Max Comp,35,36
-Max Comp+Top5Similarity,35,36
-Top5Similarity+Min Comp,33,36
-Min Comp+Top5Similarity,33,36
+Min Comp+Farthest,37,42
+Farthest+Min Comp,37,42
+Min Comp+K-Center,40,42
+K-Center+Min Comp,40,42
+Min Comp+LHS,41,42
+LHS+Min Comp,41,42
+Max Comp+Min Comp,40,42
+Min Comp+Max Comp,40,42
+Max Comp+ODAL,38,42
+ODAL+Max Comp,38,42
+Top5Similarity+Max Comp,35,42
+Max Comp+Top5Similarity,35,42
+Top5Similarity+Min Comp,33,42
+Min Comp+Top5Similarity,33,42

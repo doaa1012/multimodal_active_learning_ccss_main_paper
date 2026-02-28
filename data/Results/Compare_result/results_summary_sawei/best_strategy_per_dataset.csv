@@ -1,0 +1,9 @@
+Dataset,BestStrategy,Reduction
+10272,Max Comp+ODAL,294.0
+10275,K-Center+ODAL,283.0
+10304,K-Center+K-Means,273.0
+10311,Min Comp+T5S,295.0
+10374,Random+T5S,293.0
+10399,Min Comp+Random,277.0
+10402,Min Comp+Random,286.0
+10403,FPS+Random,290.0

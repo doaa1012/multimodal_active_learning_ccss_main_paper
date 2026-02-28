@@ -1,0 +1,24 @@
+Strategy,StoppingIteration,GradientStableIteration
+Top5Similarity,100,
+Max Comp,75,75.0
+Min Comp,100,46.0
+Centroids_saturation_low_seed_45,100,
+Centroids_saturation_medium_seed_45,100,
+Centroids_saturation_high_seed_45,100,
+Random_seed_45,100,
+LHS_seed_45,100,
+K-Means_seed_45,100,40.0
+Farthest_seed_45,100,46.0
+ODAL_seed_45,48,31.0
+K-Center_seed_45,97,30.0
+Random_seed_45+Top5Similarity,100,
+Random_seed_45+Max Comp,55,45.0
+Random_seed_45+Min Comp,72,53.0
+Random_seed_45+Centroids_saturation_low_seed_45,100,
+Random_seed_45+Centroids_saturation_medium_seed_45,95,95.0
+Random_seed_45+Centroids_saturation_high_seed_45,100,100.0
+Random_seed_45+LHS_seed_45,94,94.0
+Random_seed_45+K-Means_seed_45,100,38.0
+Random_seed_45+Farthest_seed_45,100,
+Random_seed_45+ODAL_seed_45,71,49.0
+Random_seed_45+K-Center_seed_45,78,51.0

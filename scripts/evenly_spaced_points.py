@@ -261,13 +261,21 @@ def compare_evenly_vs_mixed(
         plt.figure(figsize=(10, 6))
 
         y = range(len(top_df))
-        colors = sns.color_palette("Set2", 2)
+        color_evenly = "#83A8FF"   
+        color_mixed  = "#79FAD4"   
+
+
+
 
         # Plot horizontal bars
         plt.barh([i + 0.2 for i in y], top_df["EvenlyStoppingIteration"],
-                 height=0.4, label="Four-point probe (Evenly)", color=colors[0])
+            height=0.4, label="Fixed grid",
+            color=color_evenly)
+
         bars = plt.barh([i - 0.2 for i in y], top_df["StoppingIteration"],
-                        height=0.4, label="Best Mixed", color=colors[1])
+                    height=0.4, label="Best Mixed",
+                    color=color_mixed)
+
 
         # Annotate best strategies + % improvement
         for bar, strategy, percent in zip(bars, top_df["TopStrategy"], top_df["ImprovementPercent"]):

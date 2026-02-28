@@ -4,7 +4,6 @@ This work addresses the cold-start problem in active learning (AL) for experimen
 
 
 ##### This is a workflow overview for running the code and getting the paper results.
-![Workflow Overview](readme.png)
 
 ##  Installation
 
@@ -302,4 +301,61 @@ df_summary = pd.read_csv(csv_path)
 plot_decreased_only_heatmap_sorted(df_summary, heatmap_path)
 ```
 
+### Comparison with Previous Work Results
+All the tables and the analysis done in this section is in the notebook campare_even_mixed_results.ipynb
 
+```python
+compare_evenly_vs_mixed(
+    evenly_path=os.path.join(EVENLY_PATH_Uncertainty, "summary_stopping_iterations_GPBasic.csv"),
+    mixed_root=UNCERTAINTY_PATH,
+    mixed_filename="mae_priors_stopping_indices.csv",
+    output_dir=evenl_mixed_compare_Uncertainty)
+```
+
+### Robustness Across Random Initializations results
+From the four notebooks, analysis_random_10_seeds.ipynb, analysis_random_base.ipynb, Average_mean.ipynb, random_base_iteration.ipynb
+
+The first two notebooks are to run the active learning results, and the other two are for visualization.
+```python
+dataset_id= 10402
+fixed_file = os.path.join(EVENLY_PATH_Uncertainty,"10402_Ag-Au-Pd-Pt_RT","mae_history_GPBasic.csv")
+best_display = os.path.join(summary_folder_Uncertainty,"best_strategy_per_dataset.csv")
+save_path= os.path.join(summary_folder_Uncertainty,"mae_10402_all_seeds.pdf")
+plot_mixed_random_fixed(dataset_id,UNCERTAINTY_PATH_SEEDS,UNCERTAINTY_PATH_Random_10,fixed_file, best_display,MAE_PRIORS_10402,save_path,figsize=(9, 6))
+```
+```python
+best_strategy_csv_path = os.path.join(
+    summary_folder_SAWEI,
+    "best_strategy_per_dataset.csv"
+)
+
+random_csv_path = os.path.join(
+    SAWEI_PATH_Random_10,
+    "strategy_reduction_results.csv"
+)
+evenly_csv_path= os.path.join(
+    evenl_mixed_compare_SAWEI,
+    "evenly_vs_mixed_comparison.csv"
+)
+plot_dataset_strategies_bar(
+    results_base_path=SAWEI_PATH_SEEDS,
+    random_csv_path=random_csv_path,
+    dataset_id=10311,
+    best_strategy_csv_path=best_strategy_csv_path,
+    evenly_csv_path= evenly_csv_path,
+    save_path=  os.path.join(
+    summary_folder_SAWEI, "SAWEI_dataset_10311_barplot.pdf"))
+```
+
+### Effect of the number of initial points
+The results are available from this notebook: campare_8points_mixed_results.ipynb.
+```python
+df_comparison, overall_improvement, _ = compare_fixed_base_mixed_strategies(
+            material_ids=material_ids,
+            base_root=base_root,
+            mixed_folder=mixed_folder,
+            base_strategies=base_strategies,
+            mixing_strategy=strategy,
+            output_file=output_file_path
+        )
+```
