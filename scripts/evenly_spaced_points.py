@@ -170,6 +170,7 @@ def compare_evenly_vs_mixed(
 
     for _, row in evenly_df.iterrows():
         material_id = row["MaterialID"]
+        
         evenly_stopping = int(row["Stopping Iteration"])
 
         mixed_file_path = os.path.join(mixed_root, f"{material_id}_results", mixed_filename)
@@ -287,7 +288,7 @@ def compare_evenly_vs_mixed(
         # Format axes
         plt.yticks(y, top_df["MaterialID"], fontsize=12)
         plt.xlabel("Iteration (# Measurements = Iteration + 9 or 10 Initial Points)", fontsize=16)
-        plt.ylabel("Material Library ID", fontsize=16)
+        plt.ylabel("Materials Library ID", fontsize=16)
         #plt.title("Comparison of Four-point probe vs Best Mixed Strategies", fontsize=18, pad=20)
         plt.legend(fontsize=13, frameon=False)
         plt.tight_layout()

@@ -7,3 +7,15 @@ Dataset,Stopping Iteration,Gradient Stable Index,Initial Indices,Total Iteration
 10402_Ag-Au-Pd-Pt_RT,69,43,"[5, 101, 107, 157, 167, 177, 227, 233, 338]",70
 10399_Au-Cu-Pd-Pt_RT,85,67,"[5, 101, 107, 157, 167, 177, 227, 233, 338]",86
 10374_Ir_Pd_Pt-Rh_Ru,100,46,"[5, 101, 107, 157, 167, 177, 227, 233, 338]",101
+,290,,,
+,256,,,
+,232,,,
+,240,,,
+,232,,,
+,263,,,
+,247,,,
+,232,,,
+,,,,
+,,,,
+total_reduction ,1992,,,
+percentage of reduction,0.728070175,,,
